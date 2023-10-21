@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.tlo {
+  background-color: #1c1c27
+}
+
+.tlo1 {
+  background-color: rgb(28, 28, 39);
+  background: rgb(4,0,80);
+  background: linear-gradient(27deg, rgba(102, 4, 64, 0.185) 0%, rgba(104,33,139,0) 56%, rgba(60, 30, 125, 0.267) 100%);
+  clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 70% 95%, 0px 100%);
+}
+
+.tlo2 {
+  background: linear-gradient(38.73deg, rgba(204, 0, 187, 0.15) 0%, rgba(201, 32, 184, 0) 50%),
+  linear-gradient(141.27deg, rgba(0, 70, 209, 0) 50%, rgba(0, 70, 209, 0.15) 100%);
+  clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 30% 98%, 0px 100%);
+}
+
+.tlo3 {
+  background: rgb(4,0,80);
+  background: linear-gradient(185deg, rgba(4,0,80,0) 0%, rgba(139,33,126,0) 62%, rgba(125,36,72,0.4990371148459384) 100%);
+  clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 60% 96%, 0px 100%);
+}
+
+::-webkit-scrollbar {
+  height: 80px;
+  width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #575c66;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #222a35;
+}
+
+
+@media (min-width: 769px) {
+  .modal-style {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #171721;
+    border-radius: 20px;
+    padding: 15px;
+    z-index: 1000;
+  }
+}
+
+@media (max-width: 768px) {
+  .modal-style {
+    top: 50%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 10%;
+    background-color: #171721;
+    border-radius: 20px;
+    padding: 15px;
+    z-index: 1000;
+  }
+}
+
+.text-xxs {
+  font-size: 0.625rem;
+  line-height: 1rem;
+}
+
+.tech-bg {
+  background-color: #251e3a;
+}
+footer p {
+  margin: 20px;
+}
+
+.skills-glow {
+  box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+}
+
+.experience-glow {
+  box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+  transition: all 0.2s ease 0s;
+}
+
+.experience-glow:hover {
+  box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+  transform: translate(0px, -9px);
+}
