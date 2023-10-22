@@ -7,7 +7,6 @@ import { Skills } from '@/components/skills/skills'
 import { Experience } from '@/components/experiance/experience'
 import { Projects } from '@/components/projects/projects'
 import Footer from '@/components/footer/footer'
-import { Modal } from '@/components/modals/Modal'
 
 
 

@@ -1,8 +1,5 @@
 import React from 'react'
 import { experiences } from '@/data/constants'
-
-import 'react-vertical-timeline-component/style.min.css';
-
 import { SingleExperiance } from './singleExperiance'
 
 
