@@ -1,6 +1,3 @@
-"use client"
-import Image from 'next/image'
-
 import Navbar from '@/components/Navbar/navbar'
 import { HeroSection } from '@/components/heroSection'
 import { Skills } from '@/components/skills/skills'
