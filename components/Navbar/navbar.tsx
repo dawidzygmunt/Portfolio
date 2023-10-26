@@ -7,6 +7,10 @@ import { useState } from "react"
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid"
 import { MenuOverlay } from "./menuOverlay"
 
+import { Bilbo } from "next/font/google"
+const logo = Bilbo({ subsets: ['latin'], weight: '400' })
+
+
 
 const Navlinks = [
   {
@@ -42,7 +46,7 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-10 bg-[#191924]">
       <div className="width-full flex items-center justify-between mx-auto">
-        <Link href={'/'} className="text-3xl text-white p-3 mx-4">Logo</Link>
+        <Link href={'/'} className={`text-4xl text-white p-3 mx-4 ${logo.className}`}>Dawid</Link>
         <div className="mobile-menu block md:hidden">
           {
             navbarOpen ? (

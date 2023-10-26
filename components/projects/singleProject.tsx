@@ -55,7 +55,7 @@ export const SingleProject: React.FC<SingleProjectProps> = (props) => {
 
 
       <div
-        className={`bg-[#232333] w-[350px] h-[380px] p-3 rounded-xl text-white m-5 transition-all duration-500 btn-modal ${additionalclass}`}
+        className={`bg-[#232333] min-w-[220px] max-w-[600px] lg:w-[350px] lg:h-[380px] p-3 rounded-xl text-white sm:m-5 my-5 transition-all duration-500 btn-modal ${additionalclass}`}
         onClick={() => setIsModalOpen(true)}
       >
 

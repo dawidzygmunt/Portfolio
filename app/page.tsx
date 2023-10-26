@@ -1,5 +1,5 @@
 import Navbar from '@/components/Navbar/navbar'
-import { HeroSection } from '@/components/heroSection'
+import { HeroSection } from '@/components/heroSection/heroSection'
 import { Skills } from '@/components/skills/skills'
 import { Experience } from '@/components/experiance/experience'
 import { Projects } from '@/components/projects/projects'
@@ -25,7 +25,7 @@ export default function Home() {
         </div>
         <Footer />
       </div>
-      <div id="modal-root"></div>
+      {/* <div id="modal-root"></div> */}
     </main>
   )
 }

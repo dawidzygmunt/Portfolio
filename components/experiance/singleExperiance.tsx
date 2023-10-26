@@ -13,7 +13,7 @@ interface Props {
 
 export const SingleExperiance:React.FC<Props> = (props) => {
   return (
-    <div className='border border-blue-500 p-4 m-4 lg:max-w-[1000px] rounded-lg mx-20 experience-glow'>
+    <div className='border border-blue-500 p-4 m-1 my-4 md:m-4 lg:max-w-[1000px] rounded-lg lg:mx-20 experience-glow'>
       <div className='flex'>
         <img src={props.src} alt="company logo" className='w-[80px] h-[80px]'/>
         <div className='ml-2 text-left'>
@@ -22,12 +22,12 @@ export const SingleExperiance:React.FC<Props> = (props) => {
           <p className='text-slate-500 text-sm'>{props.date}</p>
         </div>
       </div>
-      <p className='text-lg text-slate-300 mt-2 mb-3 text-left'>{props.description}</p>
+      <p className='text-sm md:text-lg text-gray-400 mt-2 mb-3 text-left'>{props.description}</p>
       <div className='flex '>
-        <div className='font-bold text-xl mx-4'>Skills:</div>
+        <div className='font-bold text-sm md:text-lg mx-4'>Skills:</div>
         <div className='flex flex-wrap'>
           {props.skills.map((skill, index) => {
-            return <span key={index} className='mx-3 ml-0 text-lg'>•{skill} </span>
+            return <span key={index} className='mx-3 ml-0 text-sm text-gray-200 md:text-lg'>•{skill} </span>
           })}
         </div>
       </div>
