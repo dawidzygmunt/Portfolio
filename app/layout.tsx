@@ -1,11 +1,10 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import { Bilbo } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
 
-const logo = Bilbo({ subsets: ['latin'], weight: '400' })
+
 
 export const metadata: Metadata = {
   title: 'Dawid Zygmunt',
