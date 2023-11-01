@@ -14,6 +14,7 @@ interface SingleProjectProps {
   title: string;
   date: string;
   description: string;
+  webapp: string;
 }
 
 
@@ -48,6 +49,7 @@ export const SingleProject: React.FC<SingleProjectProps> = (props) => {
           techstack={props.techstack}
           description={props.description}
           isOpen={isModalOpen}
+          webapp={props.webapp}
           onClose={() => setIsModalOpen(false)}
         />,
         document.body

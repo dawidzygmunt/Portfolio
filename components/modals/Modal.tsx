@@ -15,6 +15,7 @@ interface SingleProjectProps {
   date: string;
   description: string;
   isOpen: boolean;
+  webapp: string;
   onClose: () => void;
 }
 
@@ -51,7 +52,12 @@ export const Modal: React.FC<SingleProjectProps> = (props) => {
           >
             Back
           </button>
-          <button className='rounded-md font-semibold bg-purple-500 hover:bg-purple-600 transition-all text-white w-full py-4 mx-2'>View Live App</button>
+          <button 
+            className='rounded-md font-semibold bg-purple-500 hover:bg-purple-600 transition-all text-white w-full py-4 mx-2'
+            onClick={() => window.open(props.webapp)}
+          >
+            View Live App
+          </button>
         </div>
       </ModalProvider>
     </div>

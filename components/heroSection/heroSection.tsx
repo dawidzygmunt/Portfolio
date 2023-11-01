@@ -35,18 +35,23 @@ export const HeroSection = () => {
           <p className='text-[#ADB7BE] text-lg lg:text-2xl mb-6 mt-5'>
             I am a programming enthusiast with extensive knowledge and experience in creating innovative technological solutions. My approach to coding is based on a focus on quality, scalability, and efficiency.
           </p>
-          <button 
-            className='px-12 py-4 sm:w-fit rounded-full mr-4 bg-white hover:bg-slate-200 transition-all 
-              text-black text-2xl'
-          >
-            Check Resume
-          </button>
-          <button 
-            className='px-12 py-4 sm:w-fit sm:mx-6 rounded-full bg-transparent hover:bg-slate-800 transition-all 
+          <a href="Dawid Zygmunt CV.pdf" download>
+            <button 
+              className='px-12 py-4 sm:w-fit rounded-full mr-4 bg-white hover:bg-slate-200 transition-all 
+                text-black text-2xl'
+
+            >
+              Check Resume
+            </button>
+          </a>
+          <a href="#Projects">
+            <button 
+              className='px-12 py-4 sm:w-fit sm:mx-6 rounded-full bg-transparent hover:bg-slate-800 transition-all 
               text-white border border-white mt-3 text-2xl'
-          >
-            My Projects
-          </button>
+            >
+              My Projects
+            </button>
+          </a>
         </div>
         <div className='col-span-5 items-center place-self-center mt-4 lg:mt-0'>
           <Image 

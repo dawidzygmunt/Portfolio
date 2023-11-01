@@ -207,9 +207,9 @@ export const projects = [
     title: "E-Commerce",
     date: "Apr 2023 - Present",
     description:
-      "The eCommerce store project created using the Next.js framework leverages advanced front-end technologies and Server-Side Rendering (SSR), resulting in fast page loading and excellent performance. This platform also offers ease of content and product management through a dedicated admin panel. Within this implementation, the store's website is optimized for responsiveness, ensuring that users can comfortably browse the offerings regardless of the device they are using. The admin panel provides store administrators with full control over content, products, and orders. It allows for adding, updating, and removing products, managing categories, monitoring orders, and tracking inventory status. All of this is done in an intuitive manner and in compliance with the latest security standards.",
+      "The eComerce store project created using the Next.js framework leverages advanced front-end technologies and Server-Side Rendering (SSR), resulting in fast page loading and excellent performance. This platform also offers ease of content and product management through a dedicated admin panel. Within this implementation, the store's website is optimized for responsiveness, ensuring that users can comfortably browse the offerings regardless of the device they are using. The admin panel provides store administrators with full control over content, products, and orders. It allows for adding, updating, and removing products, managing categories, monitoring orders, and tracking inventory status. All of this is done in an intuitive manner and in compliance with the latest security standards.",
     image:
-      "public/images/ecommerce.png",
+      "images/ecommerce.png",
     tags: [
       "Next Js", 
       "Prisma", 
@@ -227,7 +227,7 @@ export const projects = [
     title: "Figma Design",
     date: "Oct 2022 - Oct 2022",
     description:
-      "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
+      "Website design project is a modern and visually appealing website featuring a user-friendly design and a responsive layout, ensuring it adapts seamlessly to various devices. The project utilizes advanced graphic technologies to provide a visually appealing interface. Within this implementation, we focus on aesthetics, readability, and easy navigation to ensure users can comfortably browse the content and information on the website. The graphic design project has been meticulously crafted to meet expectations regarding both appearance and functionality.",
     image:
       "./images/figma.png",
     tags: [

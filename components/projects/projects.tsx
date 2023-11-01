@@ -22,7 +22,7 @@ export const Projects = () => {
             {projects.map((project) => (
               <SingleProject 
               key={project.id} title={project.title} date={project.date} src={project.image} 
-              techstack={project.tags} description={project.description}
+              techstack={project.tags} description={project.description} webapp={project.webapp}
               />
               ))}
           </div>
