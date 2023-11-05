@@ -42,7 +42,7 @@ export const Modal: React.FC<SingleProjectProps> = (props) => {
             <SingleTech key={index} name={tech} />
           ))}
         </div>
-        <div className='text-left text-md text-slate-200 mb-5 my-2 mx-2'>
+        <div className='text-left text-xs sm:text-sm lg:text-base text-slate-200 mb-5 my-2 mx-2'>
           {props.description}
         </div>
         <div className='flex items-center justify-center'>

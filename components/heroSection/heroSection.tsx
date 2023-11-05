@@ -1,13 +1,12 @@
 "use client"
 import React from 'react'
-import Image from 'next/image'
 
 import { TypeAnimation } from 'react-type-animation'
 
 
 export const HeroSection = () => {
   return (
-    <div id='About' className='pb-52  lg:mb-10 w-full container mx-auto pt-32  p-4 '>
+    <div id='About' className='pb-52 lg:mb-10 pt-24 xl:pt-0 w-full container mx-auto p-4 '>
       <div className='grid grid-cols-1 lg:grid-cols-12'>
         <div className='col-span-7 place-self-center lg:place-self-end text-center px-4 lg:text-left'>
           <h1 className='text-white text-6xl mb-4 lg:text-8xl font-extrabold sm:mt-4'>
@@ -53,14 +52,8 @@ export const HeroSection = () => {
             </button>
           </a>
         </div>
-        <div className='col-span-5 items-center place-self-center mt-4 lg:mt-0'>
-          <Image 
-            src='/images/hero.png'
-            alt='hero image'
-            width={300}
-            height={300}
-          />
-
+        <div className='col-span-5 mt-4 lg:pt-0'>
+          <img src="images/hero Photo.png" alt="Hero photo" className='rounded-full scale-50 lg:scale-75 translate-y-11 '/>
         </div>
       </div>
     </div>
