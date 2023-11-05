@@ -247,8 +247,8 @@ export const projects = [
       "./images/python.png",
     tags: ["Python", "TeX", "HTML"],
     category: "machine learning",
-    github: "https://github.com/dawidzygmunt/Excel-comparator",
-    webapp: "https://github.com/dawidzygmunt/Excel-comparator",
+    github: "https://github.com/dawidzygmunt/Excel-tool",
+    webapp: "https://github.com/dawidzygmunt/Excel-tool",
   },
   
 ];
