@@ -154,7 +154,7 @@ export const experiences = [
   {
     id: 0,
     img: "./images/ynsat.jpg",
-    role: "Frontend Developer",
+    role: "Frontend Developer [ERASMUS]",
     company: "YNSAT",
     date: "January 2022 - February 2022",
     desc: "As a frontend developer at Mapiblocks (YNSAT), my responsibilities included developing user interfaces and ensuring that Mapiblocks-based applications provide intuitive, visually appealing, and efficient solutions for users.  Additionally, I had the opportunity to work there as part of the Erasmus program, which enriched my experience by providing a cross-cultural perspective on web development and collaboration.",

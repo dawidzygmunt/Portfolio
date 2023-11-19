@@ -1,8 +1,21 @@
+"use client"
+
 import React from 'react'
 
 import NavLink from '../Navbar/NavLink'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faPhone } from '@fortawesome/free-solid-svg-icons';
+
+
 
 const Footer = () => {
+
+  const handleClick = (url:string) => {
+    window.open(url, '_blank')
+  }
 
   const Navlinks = [
     {
@@ -29,7 +42,22 @@ const Footer = () => {
 
   return (
     <footer className='flex flex-col items-center text-white sm:container mx-auto p-4'>
-      <h1 className='text-[#af6c45] text-xl logo-font font-normal'>Dawid Zygmunt</h1>
+      <h1 className='text-[#af6c45] text-2xl logo-font font-normal'>Dawid Zygmunt</h1>
+      <div className='flex mt-4' id='Contact'>
+        <button onClick={() => window.location.href = `mailto:dawid.zygmunt86@gmail.com`}>
+          <FontAwesomeIcon icon={faEnvelope } className='w-[25px] h-[25px] hover:text-red-300 transition-all duration-75 mx-4' />
+        </button>
+        <button onClick={() => window.location.href = `tel:+48696633888`}>
+          <FontAwesomeIcon icon={faPhone} className='w-[25px] h-[25px] hover:text-red-300 transition-all duration-75 mx-4' />
+        </button>
+        <button onClick={() => handleClick("https://github.com/dawidzygmunt")}>
+          <FontAwesomeIcon icon={faGithub} className='w-[25px] h-[25px] hover:text-red-300 transition-all duration-75 mx-4' />
+        </button>
+        <button onClick={() => handleClick("https://www.linkedin.com/in/dz-dev/")}>
+          <FontAwesomeIcon icon={faLinkedinIn} className='w-[25px] h-[25px] hover:text-red-300 transition-all duration-75 mx-4' />
+        </button>
+
+      </div>
       <div>
         <ul className='flex mt-4 text-white flex-col sm:flex-row'>
           {

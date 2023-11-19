@@ -3,6 +3,7 @@ import { HeroSection } from '@/components/heroSection/heroSection'
 import { Skills } from '@/components/skills/skills'
 import { Experience } from '@/components/experiance/experience'
 import { Projects } from '@/components/projects/projects'
+import { Contact } from '@/components/contact/contactForm'
 import Footer from '@/components/footer/footer'
 
 
