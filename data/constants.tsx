@@ -206,8 +206,8 @@ export const projects = [
     id: 0,
     title: "E-Commerce",
     date: "Apr 2023 - Present",
-    description:
-      "The eComerce store project created using the Next.js framework leverages advanced front-end technologies and Server-Side Rendering (SSR), resulting in fast page loading and excellent performance. This platform also offers ease of content and product management through a dedicated admin panel. Within this implementation, the store's website is optimized for responsiveness, ensuring that users can comfortably browse the offerings regardless of the device they are using. The admin panel provides store administrators with full control over content, products, and orders. It allows for adding, updating, and removing products, managing categories, monitoring orders, and tracking inventory status. All of this is done in an intuitive manner and in compliance with the latest security standards.",
+    description: 
+      "The eComerce store project created using the Next.js framework leverages advanced front-end technologies and Server-Side Rendering (SSR), resulting in fast page loading and excellent performance. This platform also offers ease of content and product management through a dedicated admin panel. Within this implementation, the store's website is optimized for responsiveness, ensuring that users can comfortably browse the offerings regardless of the device they are using. The admin panel provides store administrators with full control over content, products, and orders. It allows for adding, updating, and removing products, managing categories, monitoring orders, and tracking inventory status. All of this is done in an intuitive manner and in compliance with the latest security standards \n login: admin@gmail.com \n password: root",
     image:
       "images/ecommerce.png",
     tags: [
