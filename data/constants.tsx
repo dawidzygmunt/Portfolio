@@ -102,6 +102,12 @@ export const skills = [
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
       },
+      {
+        name: "Nginx",
+        image:
+          "https://i.imgur.com/3L61G7m.png"
+
+      }
     ],
   },
   {
@@ -135,9 +141,9 @@ export const experiences = [
   {
     id: 1,
     img: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAABKVBMVEUKFRv////ybC0AAAAAABoAAAMADhWDhogvNzqPkZMAERkADxgGFBoAChoAABgACBoAAAkABhDr6+wADhoAABz2bCrybC6foaM3NzoAIS32bCsAAA16fH5vcnTobDUACBcAFSK8vr4AGiMACBbQ0dFQVFfobDYRGx6zkSr9yTIAFiHZcEUADh/JbEcdKS/lc0O1Zkb3dDvl5uexs7RITVDFx8hxdXdzYiZMQyFVSSLSqzM3Mx/itDP/0TObgCpmVCTAmi/tvTIpKh5SPTd7SzqKTjqVUDZeRDm6ZD5FODTPakCkWDt1RziCTTgfJSlZQjueYUeRXkykYUevaEuBV0dvTkLFcE60Xj1SNCoRLTaKXEtBPDs5QERcYGI+OCCAbS0bHhuJcimjhyuYsOQbAAAL50lEQVR4nO2dC1vaSBfHkUSESUiAEMUIi4IIqSiiKILIJa71ttVe1u67qwj4/T/Ee2bCJWBA21oMPue3+1QIEzJ/zplzmbTociEIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiCIoyGCoFAEgYhvPZdXRyTJuH/75M/T048fT/868yb8cYW89aReERL/cPHxMqeqGv1fgz/zufPTiJJ8JyIF/8UVVee2AjK13NeILLz17H4dIXt2qWmaqYrqUkFs77l768Y/4xqJfHPJ5IA28Myrj5/++uvT6dV5Lq92D2+dyLMcdpLbO24mRM1dnV2vxpMQSCGYJuPZ6zPwXPbS4rfE7JpROttQQYS6eH6zGheGwgoR4h9OzvPs5dyJ9FYz/DVI9jMzknsn4hdsPFEU/JEd6qvq4peZlEhWvzMLbd7JY5MCkS822aCd1dlbjCRB564tfuYnJj0h+5mGVXXrw6zlxq7AjeeXWPwmr82gRJK4VKmHbiefH5uM5JjE2XLU7DkTuPyiPCBs5+job/7fPatXJP5FdS+CwBc6Xlfify8wuEMQblgQfalAJhEcNX8xK6lfTOS0RffG9g/MV7jL09Q/K0sx/pXmuAtbnxsnIXlLo83X+G+c1utBItQeX2wnS5aVMWdJ9GPJe2ciZfi3NLe2Kdu9RBK5b357M1LXhtpmFso34QJcdNE2aJDElqqOkyicgZ9qkRkwYvwfFWxhl9vE7Hd1EfLemIZQprbfcf5KJMt5akIbU4jZHZXVoN/sQ6ZwAi/mlx0fTpU/Vbe2ZWdC+Ztq7tGoO1lbGfImrMQ/x4Uix0DjjHprswpZsOxJtF2L5ofj9FgjJsBJN2xcTfpi2WxTv6/auTF1cMe7qXAGdjh/Gi7ifw/tJg4kWq3NYs2Zw0s35SNE0k9P1pJ0O7xd2pdIbiylj3IKH89Xh9ffcTDD00iaPHOPAv0goTW69vdAEbnQbB3AUdB4+MfoUkqe5J8oNCX6t9T8yUDiat6t5RweaiQ6x+zwMdY42EoEE7q1jbv+ypOgcnN4qBH/hZV0OexnQmRDs1MIErOXtFLLbfe8Og7P89eOLtwIVfjPkEKzgXdrNirVTc38keiKip/brWJHQe6oQms0JMs5tul2szmikz40b9C41cvuRlt8BxSeOFqhcAIKryw2JIlN6PfVXCS5DBLVzX5ho21edh/S41tmHUcVav9ztsKLYS8lH7bMXUUBjLmp5hLb/aBz0S3EtavPYMVzJjFJDzlbIYkMKRSz57RfMrM7Wf6+TZJXpuVoDyV9YY83srd51azGFbpH5/B1+K+1aDP7JfVrt5UQ48RFTCNquQQci5+x7e6zlUgOOmM6auU/zeEKXat0B6OXs2VqMO2/oRQuM9/Ublk0St5tMJsLtPlnd2ek2/y2sxVKOXC7VfOxDAtMy98OZ0cSWaSZsLuNw1JJ7oNIYKwpMXmSnu6MfxR5kLNl6JfUjSebihIYcWAnYXtTVW+gqInDYmQSnW1BuksDslgDRPslNed90imQiKZ+GhylEnfo0+RdDiQ6XR9M+BNNiElqExC4ZbfvLW1tWgtXcNT8KnuwfD4L99hYUbO56kreQJbYsZ0vuRiuWoTrS9Otif+z2VM5Gz+9x3KRvIAU93nMtiEZEUHivXGQPpx/GzG+Q/t0b151//0TjV7Sm9uy34hzDsIN5LuNDTV/81O9OmRGx0tU2D3r3N1PbreI8ted1Ved0E8ieoIrAQ4IrAQ9Q+sqeaqapfbPIt0+3clyBbke04hEnnmOc3lTzagPiDab92m4sKf3KklsqFsvv/1rg/D00wk299dM9n9/URfkthfWQnNDhPZ999xKd0Dy0+sn7vmF/rW8nueH/xJcan3OlvUm140QRHn1UDFFhdySvT7KGvfbguD0FHJ74wWCGbnfdd2pKQymJgmcm1sYSBQH0Y8RnPjGnkAXOqx35vxAy9QUcmuTFe72FMIkm7699d1dCEmh3d31PV9qkkhPIdolxc7cX6fnLKT7p0xPoSWGhnyxWCoVi/l2LRKv2eU9XGr/qfy9+7HrlPP1B3E+yzX277npKhTnB1cPsWTP0r5lSgV6eY84JtzujZM4ULi/O3zKknnKW9gwxAXZtUUPZ5nUPVxeDIzMcsDamFA0UDjmlOkptMx9zeuh4WDFaw2vHnFyQjkI/KjCOR83VYXDkw8BQwdouhBXLM99zcJ9Kro+NOAHFc5te6aokLjGOmD/6p6CRQ8XDHqC85YQfG07v2GF63tr1svscdPM+J5JKX89QEtT4j2IdfFygcA8deWBwpRtyrAqXKN1PFewOAcEmynWNAeTTLjEfJCYqjgufR+LRhcgLVqG2C9Ei8J1s0sJpAfnNFecVtNwwejeesh+xJLtQrQovO8a2eIsEGumF2nGJLo+gugSJ4aNZxX2Xrdo2pueQo/XMtfQUqxZKDRjS9aoEFtxcTblzBOFYh9nKQw2B1PdhZomCASscQQcKhAd0RTaXfPd933WVCgm+oijCrtlj+XQFBUGYnPWy3aZt+j2cVZHXmveu1jUGdieKSSR/B9dcssjcnrtieV9FuanZ0NLoAmJ0N6YycDilgscN3iyzwU87N80W6JGV2H/L/GZf7fEunS9nEeE1stypBCc3jq0hHCwkC96cBBd2LNGzfvgvGUAR7eUPPPW2fYULvYVukYUzi1sz68ULGk3NM2M/1wsDXGixYZzS4R6aNQaip634RN801S40pwwkzm2iLjJdd1TGz6nMERjj5P2aSZ1Fj+lsEBLAIfste3T/WjRzojR4WzxI14am25/6JqwX7p7YKYyz/XogN3CoHNef0ZhaGH41O42xjQVuoKc127Pu8D1amoPd2DVuB7lgtxSqAfd56D5cIP99yQfhrh0f+MntNbsbUUFov03+P0KqQSOI/ep2EHUBwkjliqkR3YLA1w6FV2iRFPX3DyV0IfNT1zu4xpVCO/ugmIwlvJy/RsF9C2H3mAKsHtPAZr0R+89MTxBc0qB4IsmZFUITwm8+crLzpwVRhS+Q2x6i3eGp7DQJWq/GTf7eOa7vFeBCIIgCIIgCIIgCIIgCIIgCIIgyGtBiOIHZFn2d3/CA9mvvIffAEEUWZJE46FUK1JaLfNP9qNWejDSfFieYZ0KL6UPi51qp1UsPRy102BJmRlQ9hNX23g4LLboiyWDl/wzqFLhw6VO5rFTMogEDklGf/OKSF1Xlvztw9ZjvVpTpFn6KmhAkR6q5UwRxDEfVKTRf9pL2BFJpn7Mi6XHcqbE236rq0PhHzKValuSqvUwcQlEKZUfBNfAikQRjHJJIXK5JdMvICBgy1a5XpNmxVdFuVOut2VDljJlXuENP29UFSls0MVGf++Kf9Xgj/QS35b0Ds8brrAiSAYfrlYe0zMiUe7UH8NHut5oZ8ql4/Jxo1Q6bjcqeiVMpOKRrBzqetnQDx+P23rHqOh6p6ZX9Mah1ClnRr9Rwpkoh5my4TdaRb2YqZT06kOlQhXWO7ohV/XGEV/Va8aRXtWLYMN6pdSo1/TqYaUc5uv14kysRX8tU/dL9UqdKTwOS9UGKNSrNd0wGmA+3ijrjQe9oadBYaXRqEm146xUrfDSY73Dv/XsXwI5AueUGpnDY2bDckcvM4XF4yO5Xamk5VKnc1w7LjUqvN6pHlcz4KX1TqMutSHYzEbOkGvlslGslMu1x0xJrzfKRqmSLndqFYMo6bYitxqNR6NyeFipVYrhTKNCFTbq6Wy9PBsmBPjDOsxd4mUeHLAt84rCE4n302RAQ4kczkqQIRVelmTCZ8N88dgIS/CxFHmHf63JAD9fLFc6acj3Rx27DDAsRDlqZc3xU5reayDKPNQp9ZYhSfzEyloAO5MalDQ1MPXUpvc6+Hn+oZOpP7ZKaYXnoV2CZkkgPaCdksFxxYditV6vlsL8+N8o5GQUSZKMWqsKdIq0vzCMNmAYR7SdMo/XjnhQ+tYz/RVoZS1JCvRKrEdstVh3WCtBcyiCC8uz2DfZAn6pmN292eEr76LBRxAEQRAEQRAEQRAEQRDk/fB/w7aJJIxTK5gAAAAASUVORK5CYII=",
-    role: "IT support",
+    role: "IT specialist",
     company: "Snap Outdoor Sp. z o.o",
-    date: "October 2022 - April 2023",
+    date: "October 2022 - September 2023",
     desc: "I was responsible for troubleshooting issues related to software, computer hardware, and network infrastructure. I managed databases, assisted in configuring and monitoring cloud resources. Additionally, I participated in projects related to the expansion and update of IT infrastructure, ensuring the smooth implementation of new solutions. I developed skills in effective communication and quick response to outages or user needs to maintain the continuity of the company's IT systems.",
     skills: [
       "MySQL",
@@ -154,9 +160,9 @@ export const experiences = [
   {
     id: 0,
     img: "./images/ynsat.jpg",
-    role: "Frontend Developer [ERASMUS]",
+    role: "Frontend Developer [internship]",
     company: "YNSAT",
-    date: "January 2022 - February 2022",
+    date: "January 2022 - may 2022",
     desc: "As a frontend developer at Mapiblocks (YNSAT), my responsibilities included developing user interfaces and ensuring that Mapiblocks-based applications provide intuitive, visually appealing, and efficient solutions for users.  Additionally, I had the opportunity to work there as part of the Erasmus program, which enriched my experience by providing a cross-cultural perspective on web development and collaboration.",
     skills: [
       "Angular",
@@ -204,10 +210,30 @@ export const projects = [
   },
   {
     id: 0,
-    title: "E-Commerce",
+    title: "E-Commerce CMS",
     date: "Apr 2023 - Present",
     description: 
       "The eComerce store project created using the Next.js framework leverages advanced front-end technologies and Server-Side Rendering (SSR), resulting in fast page loading and excellent performance. This platform also offers ease of content and product management through a dedicated admin panel. Within this implementation, the store's website is optimized for responsiveness, ensuring that users can comfortably browse the offerings regardless of the device they are using. The admin panel provides store administrators with full control over content, products, and orders. It allows for adding, updating, and removing products, managing categories, monitoring orders, and tracking inventory status. All of this is done in an intuitive manner and in compliance with the latest security standards \n login: admin@gmail.com \n password: root",
+    image:
+      "images/ecommerce.png",
+    tags: [
+      "Next Js", 
+      "Prisma", 
+      "Tailwind", 
+      "Prisma", 
+      "React Js",
+      "MySQL"
+    ],
+    category: "web app",
+    github: "https://github.com/dawidzygmunt/E-commerce",
+    webapp: "https://dawidzygmuntdev.pl/e-commerce",
+  },
+  {
+    id: 0,
+    title: "E-Commerce store",
+    date: "Apr 2023 - Present",
+    description: 
+      "The project aims to create a fully functional online store (e-commerce) with implemented online payment systems and an efficient delivery system. The store will offer a wide range of products, allowing customers to easily browse, select, and purchase items. The project will encompass key elements such as the user interface, online transaction security, and an effective order and delivery management system.",
     image:
       "images/ecommerce.png",
     tags: [

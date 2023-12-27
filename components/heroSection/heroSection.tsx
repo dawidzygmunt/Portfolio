@@ -34,7 +34,7 @@ export const HeroSection = () => {
           <p className='text-[#ADB7BE] text-lg lg:text-2xl mb-6 mt-5'>
             I am a programming enthusiast with extensive knowledge and experience in creating innovative technological solutions. My approach to coding is based on a focus on quality, scalability, and efficiency.
           </p>
-          <a href="Dawid Zygmunt CV.pdf" download>
+          <a href="Dawid_Zygmunt_CV.pdf" download>
             <button 
               className='px-12 py-4 sm:w-fit rounded-full mr-4 bg-white hover:bg-slate-200 transition-all 
                 text-black text-2xl'
