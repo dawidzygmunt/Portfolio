@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio - Dawid Zygmunt
 
-## Getting Started
+## Opis
 
-First, run the development server:
+Witaj na mojej stronie portfolio! To dynamiczna strona internetowa stworzona przy użyciu [Next.js](https://nextjs.org/) z wykorzystaniem [Typescript](https://www.typescriptlang.org/) i [TailwindCSS](https://tailwindcss.com/), która prezentuje moje projekty oraz umiejętności. Celem tego projektu jest [opis krótki celu Twojego portfolio].
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Jak Zacząć
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Otwórz moje portfolio, klikając [tutaj](https://dawidzygmuntdev.pl/).
+2. Przeglądaj moje projekty oraz umiejętności prezentowane na stronie.
+3. Znajdź więcej szczegółów na temat każdego projektu, klikając na jego kafelkę.
+4. Ciesz się eksploracją mojego portfolio!
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Pomoc i Wsparcie
 
-## Learn More
+Jeśli napotkasz problemy lub masz pytania odnośnie mojego portfolio, skorzystaj z formularza kontaktowego dostępnego na stronie. Możesz również skontaktować się ze mną pod adresem dawid.zygmunt86@gmail.com w razie dodatkowych pytań.
 
-To learn more about Next.js, take a look at the following resources:
+## Technologie
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Ten projekt został stworzony przy użyciu:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [Next.js](https://nextjs.org/) - dla dynamicznego renderowania stron.
+- [Typescript](https://www.typescriptlang.org/) - dla lepszej kontroli nad typami danych.
+- [TailwindCSS](https://tailwindcss.com/) - dla szybkiego i elastycznego stylowania.
 
-## Deploy on Vercel
+## Aktualizacje
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Stale pracuję nad ulepszaniem mojego portfolio oraz dodawaniem nowych projektów. Śledź moje aktualizacje, aby być na bieżąco z najnowszymi zmianami.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Autor
+
+- Dawid Zygmunt
+- dawid.zygmunt86@gmail.com
+
+## Licencja
+
+Ten projekt jest dostępny na licencji MIT. Zobacz plik [LICENSE.md](LICENSE.md) dla pełnej treści licencji.
+
+
+Dziękuję za odwiedzenie mojego portfolio! Mam nadzieję, że będziesz zainteresowany moimi projektami i umiejętnościami.
+
+---
