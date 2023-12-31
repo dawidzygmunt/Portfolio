@@ -2,7 +2,7 @@
 
 ## Opis
 
-Witaj na mojej stronie portfolio! To dynamiczna strona internetowa stworzona przy użyciu [Next.js](https://nextjs.org/) z wykorzystaniem [Typescript](https://www.typescriptlang.org/) i [TailwindCSS](https://tailwindcss.com/), która prezentuje moje projekty oraz umiejętności. Celem tego projektu jest [opis krótki celu Twojego portfolio].
+Witaj na mojej stronie portfolio! To dynamiczna strona internetowa stworzona przy użyciu [Next.js](https://nextjs.org/) z wykorzystaniem [Typescript](https://www.typescriptlang.org/) i [TailwindCSS](https://tailwindcss.com/), która prezentuje moje projekty oraz umiejętności.
 
 
 ## Jak Zacząć
