@@ -106,7 +106,6 @@ export const skills = [
         name: "Nginx",
         image:
           "https://i.imgur.com/3L61G7m.png"
-
       }
     ],
   },
@@ -215,7 +214,7 @@ export const projects = [
     description: 
       "The eComerce store project created using the Next.js framework leverages advanced front-end technologies and Server-Side Rendering (SSR), resulting in fast page loading and excellent performance. This platform also offers ease of content and product management through a dedicated admin panel. Within this implementation, the store's website is optimized for responsiveness, ensuring that users can comfortably browse the offerings regardless of the device they are using. The admin panel provides store administrators with full control over content, products, and orders. It allows for adding, updating, and removing products, managing categories, monitoring orders, and tracking inventory status. All of this is done in an intuitive manner and in compliance with the latest security standards \n login: admin@gmail.com \n password: root",
     image:
-      "images/ecommerce.png",
+      "images/ecommerce-cms.png",
     tags: [
       "Next Js", 
       "Prisma", 
@@ -235,7 +234,7 @@ export const projects = [
     description: 
       "The project aims to create a fully functional online store (e-commerce) with implemented online payment systems and an efficient delivery system. The store will offer a wide range of products, allowing customers to easily browse, select, and purchase items. The project will encompass key elements such as the user interface, online transaction security, and an effective order and delivery management system.",
     image:
-      "images/ecommerce.png",
+      "images/ecommerce-store.png",
     tags: [
       "Next Js", 
       "Prisma", 
@@ -245,8 +244,8 @@ export const projects = [
       "MySQL"
     ],
     category: "web app",
-    github: "https://github.com/dawidzygmunt/E-commerce",
-    webapp: "https://dawidzygmuntdev.pl/e-commerce",
+    github: "https://github.com/dawidzygmunt/Ecommerce-store",
+    webapp: "https://dawidzygmuntdev.pl/store",
   },
   {
     id: 1,
