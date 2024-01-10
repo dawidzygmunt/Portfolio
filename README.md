@@ -6,7 +6,7 @@ Witaj na mojej stronie portfolio! To dynamiczna strona internetowa stworzona prz
 
 ## Live
 
-- http://dawidzygmuntdev.pl/
+- Zobacz Demo: http://dawidzygmuntdev.pl/
 
 ## Jak Zacząć
 
