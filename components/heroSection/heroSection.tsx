@@ -57,7 +57,7 @@ export const HeroSection = () => {
         </div>
         <div className='col-span-4 lg:col-span-5 mt-8 lg:pt-0 flex lg:block justify-center'>
           <Image
-            src="/images/hero Photo.png"
+            src="/images/hero-Photo.png"
             width={500}
             height={500}
             alt="Hero image"
