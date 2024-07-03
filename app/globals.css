@@ -88,10 +88,10 @@ footer p {
 
 .experience-glow {
   box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
-  transition: all 0.2s ease 0s;
+  transition: all 0.5s ease 0s;
 }
 
 .experience-glow:hover {
-  box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+  box-shadow: rgba(88, 17, 180, 0.678) 2px 4px 24px;
   transform: translate(0px, -9px);
 }
