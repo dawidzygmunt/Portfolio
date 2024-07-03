@@ -196,10 +196,10 @@ export const experiences = [
   {
     id: 0,
     img: "./images/ynsat.jpg",
-    role: "Frontend Developer [internship]",
+    role: "Frontend Developer",
     company: "YNSAT",
-    date: "January 2022 - may 2022",
-    desc: "As a frontend developer at Mapiblocks (YNSAT), my responsibilities included developing user interfaces and ensuring that Mapiblocks-based applications provide intuitive, visually appealing, and efficient solutions for users.  Additionally, I had the opportunity to work there as part of the Erasmus program, which enriched my experience by providing a cross-cultural perspective on web development and collaboration.",
+    date: "January 2022 - July 2022",
+    desc: "As a frontend developer at Mapiblocks (YNSAT), my responsibilities included developing user interfaces and ensuring that Mapiblocks-based applications provide intuitive, visually appealing, and efficient solutions for users. Working within an international team at Mapiblocks provided me with valuable cross-cultural insights into web development and collaborative practices, enriching my professional experience.",
     skills: ["Angular", "Ionic", "TypeScript", "Rest API", "Github", "RWD"],
     doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
   },
