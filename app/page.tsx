@@ -3,7 +3,6 @@ import { HeroSection } from "@/components/heroSection/heroSection";
 import { Skills } from "@/components/skills/skills";
 import { Experience } from "@/components/experiance/experience";
 import { Projects } from "@/components/projects/projects";
-import { Contact } from "@/components/contact/contactForm";
 import Footer from "@/components/footer/footer";
 
 export default function Home() {
@@ -23,7 +22,6 @@ export default function Home() {
         </div>
         <Footer />
       </div>
-      {/* <div id="modal-root"></div> */}
     </main>
   );
 }

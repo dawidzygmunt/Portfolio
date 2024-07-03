@@ -5,6 +5,7 @@ import { createPortal } from "react-dom";
 
 import { Modal } from "../modals/Modal";
 import { SingleTech } from "./singleTech";
+import Image from "next/image";
 
 interface SingleProjectProps {
   src: string;
@@ -57,7 +58,12 @@ export const SingleProject: React.FC<SingleProjectProps> = (props) => {
         onClick={() => setIsModalOpen(true)}
       >
         <div className="flex justify-center">
-          <img src={props.src} alt="project image" />
+          <Image
+            src={`/${props.src}`}
+            alt="project image"
+            width={320}
+            height={10}
+          />
         </div>
         <div className="flex flex-wrap my-2">
           {props.techstack.map((tech, index) => (
