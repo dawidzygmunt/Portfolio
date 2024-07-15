@@ -283,6 +283,6 @@ export const projects = [
     tags: ["Python", "TeX", "HTML"],
     category: "machine learning",
     github: "https://github.com/dawidzygmunt/calendar-app",
-    webapp: "https://github.com/dawidzygmunt/calendar",
+    webapp: "https://dawidzygmuntdev.pl/calendar",
   },
 ];

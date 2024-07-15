@@ -24,8 +24,8 @@ export const Modal: React.FC<SingleProjectProps> = (props) => {
           src={`/${props.src}`}
           alt="project image"
           className="mt-4"
-          width={1400}
-          height={800}
+          width={900}
+          height={400}
         />
         <div className="text-left text-white text-4xl font-medium m-2 mb-0">
           {props.title}
