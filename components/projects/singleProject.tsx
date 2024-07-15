@@ -6,7 +6,6 @@ import { createPortal } from "react-dom";
 import { Modal } from "../modals/Modal";
 import { SingleTech } from "./singleTech";
 import Image from "next/image";
-import { AspectRatio } from "@/components/ui/aspect-ratio";
 
 interface SingleProjectProps {
   src: string;
