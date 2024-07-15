@@ -258,8 +258,8 @@ export const projects = [
     title: "Anthill v2",
     date: "February 2024 - February 2024",
     description:
-      "Website design project is a modern and visually appealing website featuring a user-friendly design and a responsive layout, ensuring it adapts seamlessly to various devices. The project utilizes advanced graphic technologies to provide a visually appealing interface. Within this implementation, we focus on aesthetics, readability, and easy navigation to ensure users can comfortably browse the content and information on the website. The graphic design project has been meticulously crafted to meet expectations regarding both appearance and functionality.",
-    image: "./images/anthillv2.png",
+      "The Anthill application, developed using the Next.js framework, leverages advanced front-end technologies and Server-Side Rendering (SSR) to ensure fast page loading and outstanding performance. This platform enables users to log their work hours and specific activities dedicated to their tasks seamlessly. Key features of the Anthill application include the ability to log work hours both in real-time and retrospectively, providing flexibility for users to accurately track their time. Users can also close weeks, ensuring that their logged hours and activities are finalized and ready for reporting or analysis. The platform supports logging a variety of activities, allowing users to categorize their work and gain insights into how their time is spent.",
+    image: "./images/Anthillv2.png",
     tags: [
       "Next Js",
       "Prisma",
@@ -273,28 +273,16 @@ export const projects = [
     github: "https://github.com/dawidzygmunt/Anthill-v2",
     webapp: "https://dawidzygmuntdev.pl/anthill-v2",
   },
-  // {
-  //   id: 1,
-  //   title: "Figma Design",
-  //   date: "Oct 2022 - Oct 2022",
-  //   description:
-  //     "Website design project is a modern and visually appealing website featuring a user-friendly design and a responsive layout, ensuring it adapts seamlessly to various devices. The project utilizes advanced graphic technologies to provide a visually appealing interface. Within this implementation, we focus on aesthetics, readability, and easy navigation to ensure users can comfortably browse the content and information on the website. The graphic design project has been meticulously crafted to meet expectations regarding both appearance and functionality.",
-  //   image: "./images/figma.png",
-  //   tags: ["Figma"],
-  //   category: "web app",
-  //   github: "",
-  //   webapp: "https://dawidzygmuntdev.pl/figma",
-  // },
   {
     id: 0,
-    title: "Truth or Dare - Admin panel",
+    title: "Calendar App",
     date: "Jan 2023 - Jan 2023",
     description:
-      "This application allows importing two tables from Excel files and visualizing the differences between them. There are two modes for detecting changes. The first mode is based on a simple file comparison, while the second, more rigorous mode, removes all white spaces and compares hashes. The program collects data on the number of differences, their locations, and potential errors in cells. This tool enables precise tracking and analysis of differences between tables in Excel files.",
-    image: "./images/python.png",
+      "The Calendar project, developed using the Next.js framework. This platform offers users the ability to effortlessly create, manage, and organize various types of events through an intuitive interface. Additionally, the admin panel grants comprehensive control over event management, ensuring ease of use and flexibility. The project originally was written in React and NestJS, but it has been rewritten in Next.js to take advantage of its powerful features and will continue to be developed further. Key features of the platform include multi-type event creation, where users can schedule personal, work, and social events, as well as create custom event types tailored to specific needs.",
+    image: "./images/calendar-app.png",
     tags: ["Python", "TeX", "HTML"],
     category: "machine learning",
-    github: "https://github.com/dawidzygmunt/Excel-tool",
-    webapp: "https://github.com/dawidzygmunt/Excel-tool",
+    github: "https://github.com/dawidzygmunt/calendar-app",
+    webapp: "https://github.com/dawidzygmunt/calendar",
   },
 ];

@@ -6,6 +6,7 @@ import { createPortal } from "react-dom";
 import { Modal } from "../modals/Modal";
 import { SingleTech } from "./singleTech";
 import Image from "next/image";
+import { AspectRatio } from "@/components/ui/aspect-ratio";
 
 interface SingleProjectProps {
   src: string;
@@ -62,7 +63,8 @@ export const SingleProject: React.FC<SingleProjectProps> = (props) => {
             src={`/${props.src}`}
             alt="project image"
             width={320}
-            height={10}
+            height={100}
+            className="rounded-sm"
           />
         </div>
         <div className="flex flex-wrap my-2">
@@ -72,7 +74,7 @@ export const SingleProject: React.FC<SingleProjectProps> = (props) => {
         </div>
         <p className="text-left text-xl font-semibold">{props.title}</p>
         <p className="text-left text-xxs text-slate-400">{props.date}</p>
-        <p className="text-left text-xs font-light text-slate-200 line-clamp-4">
+        <p className="text-left text-xs font-light text-slate-200 line-clamp-5">
           {props.description}
         </p>
       </div>
