@@ -145,7 +145,7 @@ export const skills = [
       },
     ],
   },
-];
+]
 
 export const experiences = [
   {
@@ -203,7 +203,7 @@ export const experiences = [
     skills: ["Angular", "Ionic", "TypeScript", "Rest API", "Github", "RWD"],
     doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
   },
-];
+]
 
 export const education = [
   {
@@ -214,23 +214,23 @@ export const education = [
     desc: "",
     degree: "",
   },
-];
+]
 
 export const projects = [
   {
-    id: 4,
+    id: 1,
     title: "Truth or Dare",
     date: "July 2023 - August 2023",
     description:
       'The "Truth or Dare" application is an interactive gaming platform that provides users with a fun and convenient experience. Players can create game sessions, invite participants, and select the game mode. During the game, the system distributes unique cards, eliminating repetition and ensuring content diversity. The application tracks the order of players and determines if a user is not choosing "truth" too frequently. There is also an administrator panel that allows for card management, adding new questions and challenges, and modifying existing content. The application collects game statistics, providing information about the course of the game, and players can customize rules, such as penalties for refusing a challenge. It is an interactive entertainment tool that allows users to enjoy the game with friends and track their results.',
-    image: "./images/truth-or-dare.png",
+    image: "./images/cards.png",
     tags: ["React Js", "Bootstrap", "Node Js", "Express Js", "MongoDb"],
     category: "web app",
     github: "https://github.com/dawidzygmunt/Truth-or-Dare",
     webapp: "https://dawidzygmuntdev.pl/cards",
   },
   {
-    id: 4,
+    id: 2,
     title: "E-Commerce CMS",
     date: "Apr 2023 - Aug 2023",
     description:
@@ -254,7 +254,7 @@ export const projects = [
     webapp: "https://dawidzygmuntdev.pl/store",
   },
   {
-    id: 2,
+    id: 4,
     title: "Anthill v2",
     date: "February 2024 - February 2024",
     description:
@@ -274,15 +274,15 @@ export const projects = [
     webapp: "https://dawidzygmuntdev.pl/anthill-v2",
   },
   {
-    id: 0,
-    title: "Calendar App",
-    date: "Jan 2023 - Jan 2023",
+    id: 5,
+    title: "Marketing Agency",
+    date: "July 2024 - July 2024",
     description:
-      "The Calendar project, developed using the Next.js framework. This platform offers users the ability to effortlessly create, manage, and organize various types of events through an intuitive interface. Additionally, the admin panel grants comprehensive control over event management, ensuring ease of use and flexibility. The project originally was written in React and NestJS, but it has been rewritten in Next.js to take advantage of its powerful features and will continue to be developed further. Key features of the platform include multi-type event creation, where users can schedule personal, work, and social events, as well as create custom event types tailored to specific needs.",
-    image: "./images/calendar-app.png",
-    tags: ["Python", "TeX", "HTML"],
-    category: "machine learning",
-    github: "https://github.com/dawidzygmunt/calendar-app",
-    webapp: "https://dawidzygmuntdev.pl/calendar",
+      "The Marketing Agency website, built with the React, provides a dynamic platform for showcasing services, portfolios, and client testimonials. Designed with a focus on user experience, the website features a sleek, responsive layout that adapts seamlessly across devices. The admin panel offers intuitive content management, enabling easy updates to services, case studies, and blog posts. Key features include an interactive portfolio gallery, a comprehensive service overview, and a client feedback section, all aimed at enhancing engagement and visibility for the agency.",
+    image: "./images/agency.png",
+    tags: ["React", "Tailwind"],
+    category: "web app",
+    github: "https://github.com/dawidzygmunt/marketing-agency",
+    webapp: "https://dawidzygmuntdev.pl/agency",
   },
-];
+]
