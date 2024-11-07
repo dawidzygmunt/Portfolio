@@ -153,7 +153,7 @@ export const experiences = [
     img: "./images/brainhub-logo.jpg",
     role: "Fullstack Developer",
     company: "Brainhub",
-    date: "March 2024 - Present",
+    date: "March 2024 - August 2024",
     desc: "As a Fullstack Developer, I have effectively utilized modern front-end and back-end technologies to develop responsive and dynamic web applications. I focused on creating and integrating REST APIs to ensure efficient and secure communication. For code management and team collaboration, I relied on GitHub and GitLab. Automating deployment processes using CI/CD tools and Docker ensured the high quality and reliability of applications. Implementing Test Driven Development (TDD) and Playwright allowed me to deliver stable and well-tested solutions. In back-end development, I primarily utilized Next.js and the Prisma ORM to efficiently manage PostgreSQL databases. Additionally, I have experience developing Progressive Web Apps (PWAs), providing high-performance applications with offline availability for users.",
     skills: [
       "React",
@@ -198,9 +198,9 @@ export const experiences = [
     img: "./images/ynsat.jpg",
     role: "Frontend Developer",
     company: "YNSAT",
-    date: "January 2022 - July 2022",
+    date: "January 2022 - September  2022",
     desc: "As a frontend developer at Mapiblocks (YNSAT), my responsibilities included developing user interfaces and ensuring that Mapiblocks-based applications provide intuitive, visually appealing, and efficient solutions for users. Working within an international team at Mapiblocks provided me with valuable cross-cultural insights into web development and collaborative practices, enriching my professional experience.",
-    skills: ["Angular", "Ionic", "TypeScript", "Rest API", "Github", "RWD"],
+    skills: ["Angular", "React", "Ionic", "TypeScript", "Rest API", "Github", "RWD"],
     doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
   },
 ]
