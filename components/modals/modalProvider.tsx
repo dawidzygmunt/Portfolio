@@ -55,14 +55,14 @@ export const ModalProvider: React.FC<ModalProps> = ({
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
       <div
-        className="fixed flex flex-col max-h-[90vh] bg-[#171721] items-end z-50 p-6 pt-2 sm:mx-10 md:mx-16 lg:mx-24 mx-auto max-w-4xl
+        className="fixed flex flex-col max-h-[90vh] bg-[#171721] items-end z-50 p-6 sm:mx-10 md:mx-16 lg:mx-24 mx-auto max-w-4xl
           rounded-xl"
       >
         <button
-          className="text-white relative mb-4"
+          className="text-white mb-4 absolute right-1 top-1"
           onClick={() => onClose()}
         >
-          <XMarkIcon className="w-6 h-6 absolute top-0 right-0" />
+          <XMarkIcon className="w-5 h-5" />
         </button>
         <div>{children}</div>
       </div>

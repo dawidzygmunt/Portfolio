@@ -31,45 +31,42 @@ export const Modal: React.FC<SingleProjectProps> = ({
         open={isOpen}
         onClose={() => onClose()}
       >
-        <div>
-          <Image
-            src={`/${src}`}
-            alt="project image"
-            className="mt-4"
-            width={900}
-            height={400}
-          />
-          <h1 className="text-left text-white text-4xl font-medium m-2 mb-0">
-            {title}
-          </h1>
-          <span className="text-left text-xs text-slate-300 mx-2 mb-2">
-            {date}
-          </span>
-          <div className="flex flex-wrap mx-2">
-            {techStack.map((tech, index) => (
-              <SingleTech
-                key={index}
-                name={tech}
-              />
-            ))}
-          </div>
-          <div className="text-left text-xs sm:text-sm lg:text-base text-slate-200 mb-5 my-2 mx-2 max-h-[18vh] overflow-auto">
-            {description}
-          </div>
-          <div className="flex items-center justify-center">
-            <button
-              className="rounded-md font-semibold bg-[#222230] hover:bg-[#393957] hover:opacity-75 transition-all text-white w-full py-4 mx-2"
-              onClick={onClose}
-            >
-              Back
-            </button>
-            <button
-              className="rounded-md font-semibold bg-purple-500 hover:bg-purple-600 transition-all text-white w-full py-4 mx-2"
-              onClick={() => window.open(webApp)}
-            >
-              View Live App
-            </button>
-          </div>
+        <Image
+          src={`/${src}`}
+          alt="project image"
+          width={900}
+          height={400}
+        />
+        <h1 className="text-left text-white text-4xl font-medium pt-2 ">
+          {title}
+        </h1>
+        <span className="text-left text-xs text-slate-300 mx-2 pb-2">
+          {date}
+        </span>
+        <div className="flex flex-wrap mx-2">
+          {techStack.map((tech, index) => (
+            <SingleTech
+              key={index}
+              name={tech}
+            />
+          ))}
+        </div>
+        <div className="text-left text-xs sm:text-sm lg:text-base text-slate-200 py-2 mx-2 max-h-[18vh] overflow-auto">
+          {description}
+        </div>
+        <div className="flex items-center justify-center pt-3">
+          <button
+            className="rounded-md font-semibold bg-[#222230] hover:bg-[#393957] hover:opacity-75 transition-all text-white w-full py-4 mx-2"
+            onClick={onClose}
+          >
+            Back
+          </button>
+          <button
+            className="rounded-md font-semibold bg-purple-500 hover:bg-purple-600 transition-all text-white w-full py-4 mx-2"
+            onClick={() => window.open(webApp)}
+          >
+            View Live App
+          </button>
         </div>
       </ModalProvider>
     </>
