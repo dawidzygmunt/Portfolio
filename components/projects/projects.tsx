@@ -114,12 +114,6 @@ const ProjectItem: React.FC<ProjectItemProps> = ({ project, index }) => {
         delay: index * 0.15, // Subtle staggering based on index
       },
     },
-    hover: {
-      y: -10,
-      transition: {
-        duration: 0.3,
-      },
-    },
   }
 
   return (
@@ -135,7 +129,7 @@ const ProjectItem: React.FC<ProjectItemProps> = ({ project, index }) => {
         title={project.title}
         date={project.date}
         src={project.image}
-        techstack={project.tags}
+        techStack={project.tags}
         description={project.description}
         webapp={project.webapp}
       />
