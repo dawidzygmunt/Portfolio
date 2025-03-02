@@ -47,7 +47,7 @@ export const Experience = () => {
     <div
       id="Experience"
       ref={sectionRef}
-      className="text-white mt-16 flex flex-col justify-center items-center text-center pt-52 pb-52 container mx-auto p-4"
+      className="text-white mt-16 flex flex-col justify-center items-center text-center pt-52 pb-52 container mx-auto p-4 overflow-hidden"
     >
       <motion.span
         className="font-extrabold text-5xl mb-3 md:text-6xl pb-3"

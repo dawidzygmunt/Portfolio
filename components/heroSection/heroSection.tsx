@@ -88,7 +88,7 @@ export const HeroSection = () => {
               and efficiency.
             </motion.p>
             <motion.div
-              className="flex flex-wrap justify-center lg:justify-start"
+              className="flex flex-wrap justify-center sm:space-x-5 lg:justify-start"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.7 }}
@@ -98,7 +98,7 @@ export const HeroSection = () => {
                 download
               >
                 <motion.button
-                  className="px-8 py-3 rounded-full mr-4 bg-white hover:bg-slate-200 border border-white transition-all 
+                  className="px-8 py-3 rounded-full bg-white hover:bg-slate-200 border border-white transition-all 
                 text-black text-2xl w-[270px] my-2"
                   variants={buttonHoverVariants}
                   whileHover="hover"

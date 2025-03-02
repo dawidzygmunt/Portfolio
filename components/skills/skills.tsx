@@ -72,7 +72,7 @@ export const Skills = () => {
         to work efficiently in both front-end and back-end areas.{' '}
       </motion.p>
       <motion.div
-        className="flex flex-wrap items-center justify-center pt-5 px-22"
+        className="flex flex-wrap items-center justify-center pt-5 sm:px-22"
         variants={containerVariants}
         initial="hidden"
         animate={isInView ? 'visible' : 'hidden'}
