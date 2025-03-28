@@ -82,10 +82,11 @@ export const HeroSection = () => {
               animate={{ opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.5 }}
             >
-              I am a programming enthusiast with extensive knowledge and
-              experience in creating innovative technological solutions. My
-              approach to coding is based on a focus on quality, scalability,
-              and efficiency.
+              I am passionate about programming, cybersecurity, and reverse
+              engineering. I enjoy creating modern technological solutions that
+              are not only functional but also efficient and scalable. Exploring
+              systems, analyzing how they work, and finding creative ways to
+              improve them is something that truly fascinates me.
             </motion.p>
             <motion.div
               className="flex flex-wrap justify-center sm:space-x-5 lg:justify-start"

@@ -69,7 +69,7 @@ export const Skills = () => {
       >
         I am an full-stack developer with a passion for creating innovative
         solutions. My skills encompass a wide spectrum of domains, allowing me
-        to work efficiently in both front-end and back-end areas.{' '}
+        to work efficiently in both front-end and back-end areas.
       </motion.p>
       <motion.div
         className="flex flex-wrap items-center justify-center pt-5 sm:px-22"

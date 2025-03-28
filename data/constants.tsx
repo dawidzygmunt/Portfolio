@@ -160,7 +160,7 @@ export const experiences = [
     img: './images/brainhub-logo.jpg',
     role: 'Fullstack Developer',
     company: 'Brainhub',
-    date: 'March 2024 - August 2024',
+    date: 'April 2024 - August 2024',
     desc: 'As a Fullstack Developer, I have effectively utilized modern front-end and back-end technologies to develop responsive and dynamic web applications. I focused on creating and integrating REST APIs to ensure efficient and secure communication. For code management and team collaboration, I relied on GitHub and GitLab. Automating deployment processes using CI/CD tools and Docker ensured the high quality and reliability of applications. Implementing Test Driven Development (TDD) and Playwright allowed me to deliver stable and well-tested solutions. In back-end development, I primarily utilized Next.js and the Prisma ORM to efficiently manage PostgreSQL databases. Additionally, I have experience developing Progressive Web Apps (PWAs), providing high-performance applications with offline availability for users.',
     skills: [
       'React',
@@ -237,7 +237,7 @@ export const projects = [
     title: 'Truth or Dare',
     date: 'July 2023 - August 2023',
     description:
-      'The "Truth or Dare" application is an interactive gaming platform that provides users with a fun and convenient experience. Players can create game sessions, invite participants, and select the game mode. During the game, the system distributes unique cards, eliminating repetition and ensuring content diversity. The application tracks the order of players and determines if a user is not choosing "truth" too frequently. There is also an administrator panel that allows for card management, adding new questions and challenges, and modifying existing content. The application collects game statistics, providing information about the course of the game, and players can customize rules, such as penalties for refusing a challenge. It is an interactive entertainment tool that allows users to enjoy the game with friends and track their results.',
+      'The "Truth or Dare" app is a fun and interactive gaming platform designed for an engaging experience with friends. Players can create game sessions, invite others, and choose from different game modes. The system ensures variety by distributing unique cards and tracking player choices to prevent overuse of "truth." An admin panel allows for managing cards, adding new challenges, and customizing content. The app also tracks game statistics and lets players set custom rules, like penalties for skipping a challenge, making it a dynamic and personalized entertainment tool.',
     // 'Test description',
     image: './images/cards.png',
     tags: ['React Js', 'Bootstrap', 'Node Js', 'Express Js', 'MongoDb'],
@@ -250,7 +250,7 @@ export const projects = [
     title: 'E-Commerce CMS',
     date: 'Apr 2023 - Aug 2023',
     description:
-      "The eCommerce store project created using the Next.js framework leverages advanced front-end technologies and Server-Side Rendering (SSR), resulting in fast page loading and excellent performance. This platform also offers ease of content and product management through a dedicated admin panel. Within this implementation, the store's website is optimized for responsiveness, ensuring that users can comfortably browse the offerings regardless of the device they are using. The admin panel provides store administrators with full control over content, products, and orders. It allows for adding, updating, and removing products, managing categories, monitoring orders, and tracking inventory status. All of this is done in an intuitive manner and in compliance with the latest security standards \n login: admin@gmail.com \n password: root",
+      'This eCommerce CMS, built with Next.js, leverages advanced front-end technologies and Server-Side Rendering (SSR) for exceptional speed and a smooth user experience. The admin panel simplifies content and product management, giving store owners full control over inventory, categories, and orders. With a user-friendly interface and strong security features, managing the store is both seamless and reliable.',
     image: 'images/ecommerce-cms.png',
     tags: ['Next Js', 'Prisma', 'Tailwind', 'Prisma', 'React Js', 'MySQL'],
     category: 'web app',
@@ -262,7 +262,7 @@ export const projects = [
     title: 'E-Commerce store',
     date: 'Apr 2023 - Aug 2023',
     description:
-      'The project aims to create a fully functional online store (e-commerce) with implemented online payment systems and an efficient delivery system. The store will offer a wide range of products, allowing customers to easily browse, select, and purchase items. The project will encompass key elements such as the user interface, online transaction security, and an effective order and delivery management system.',
+      'The project aims to build a fully functional e-commerce store with integrated online payment systems and an efficient delivery process. It will offer a wide variety of products, making it easy for customers to browse, select, and purchase items. The project will focus on key aspects such as an intuitive user interface, secure online transactions, and a streamlined order and delivery management system.',
     image: 'images/ecommerce-store.png',
     tags: ['Next Js', 'Prisma', 'Tailwind', 'MySQL'],
     category: 'web app',
@@ -271,10 +271,10 @@ export const projects = [
   },
   {
     id: 4,
-    title: 'Anthill v2',
+    title: 'Anthill',
     date: 'February 2024 - February 2024',
     description:
-      'The Anthill application, developed using the Next.js framework, leverages advanced front-end technologies and Server-Side Rendering (SSR) to ensure fast page loading and outstanding performance. This platform enables users to log their work hours and specific activities dedicated to their tasks seamlessly. Key features of the Anthill application include the ability to log work hours both in real-time and retrospectively, providing flexibility for users to accurately track their time. Users can also close weeks, ensuring that their logged hours and activities are finalized and ready for reporting or analysis. The platform supports logging a variety of activities, allowing users to categorize their work and gain insights into how their time is spent.',
+      'The Anthill app, built with Next.js, utilizes advanced front-end technologies and Server-Side Rendering (SSR) to deliver fast page load times and top-tier performance. This platform allows users to easily log their work hours and activities related to specific tasks. Key features include the ability to log hours in real-time or retrospectively, offering flexibility for accurate time tracking. Users can also close weeks to finalize their logged hours and activities for reporting or analysis. The app supports a range of activity categories, providing users with valuable insights into how their time is spent.',
     image: './images/Anthillv2.png',
     tags: [
       'Next Js',
@@ -282,7 +282,6 @@ export const projects = [
       'PostgreSQL',
       'Tailwind',
       'PWA',
-      'Clerk',
       'Notifications',
     ],
     category: 'web app',
@@ -294,7 +293,7 @@ export const projects = [
     title: 'Marketing Agency',
     date: 'July 2024 - July 2024',
     description:
-      'The Marketing Agency website, built with the React, provides a dynamic platform for showcasing services, portfolios, and client testimonials. Designed with a focus on user experience, the website features a sleek, responsive layout that adapts seamlessly across devices. The admin panel offers intuitive content management, enabling easy updates to services, case studies, and blog posts. Key features include an interactive portfolio gallery, a comprehensive service overview, and a client feedback section, all aimed at enhancing engagement and visibility for the agency.',
+      'The Marketing Agency website, built with React, offers a dynamic platform to showcase services, portfolios, and client testimonials. With a focus on user experience, the website boasts a sleek, responsive design that adapts effortlessly across devices. Please note that this is a showcase site and does not include full functionality.',
     image: './images/agency.png',
     tags: ['React', 'Tailwind'],
     category: 'web app',
