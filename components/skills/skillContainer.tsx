@@ -1,9 +1,5 @@
 import React from 'react'
-
-interface SkillContainerProps {
-  title: string
-  children: React.ReactNode
-}
+import { SkillContainerProps } from '@/types'
 
 export const SkillContainer: React.FC<SkillContainerProps> = (props) => {
   return (

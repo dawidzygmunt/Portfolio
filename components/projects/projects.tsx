@@ -4,17 +4,7 @@ import { motion, useInView } from 'framer-motion'
 
 import { SingleProject } from './singleProject'
 import { projects } from '@/data/constants'
-
-// Define Project type
-interface ProjectType {
-  id: string | number
-  title: string
-  date: string
-  image: string
-  tags: string[]
-  description: string
-  webapp: string
-}
+import { ProjectType, ProjectItemProps } from '@/types'
 
 export const Projects = () => {
   const sectionRef = useRef(null)
@@ -85,11 +75,6 @@ export const Projects = () => {
       </div>
     </div>
   )
-}
-
-interface ProjectItemProps {
-  project: ProjectType
-  index: number
 }
 
 const ProjectItem: React.FC<ProjectItemProps> = ({ project, index }) => {

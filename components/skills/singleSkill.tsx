@@ -1,7 +1,4 @@
-interface SingleSkillProps {
-  name: string;
-  src: string;
-}
+import { SingleSkillProps } from '@/types'
 
 export const SingleSkill: React.FC<SingleSkillProps> = (props) => {
   return (

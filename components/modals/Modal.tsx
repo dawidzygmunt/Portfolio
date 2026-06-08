@@ -3,19 +3,9 @@
 import { SingleTech } from '../projects/singleTech'
 import { ModalProvider } from './modalProvider'
 import Image from 'next/image'
+import { ModalProjectProps } from '@/types'
 
-interface SingleProjectProps {
-  src: string
-  techStack: string[]
-  title: string
-  date: string
-  description: string
-  isOpen: boolean
-  webApp: string
-  onClose: () => void
-}
-
-export const Modal: React.FC<SingleProjectProps> = ({
+export const Modal: React.FC<ModalProjectProps> = ({
   src,
   techStack,
   title,

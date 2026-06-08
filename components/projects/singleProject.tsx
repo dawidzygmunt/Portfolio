@@ -7,15 +7,7 @@ import { createPortal } from 'react-dom'
 import { Modal } from '../modals/Modal'
 import { SingleTech } from './singleTech'
 import Image from 'next/image'
-
-interface SingleProjectProps {
-  src: string
-  techStack: string[]
-  title: string
-  date: string
-  description: string
-  webapp: string
-}
+import { SingleProjectProps } from '@/types'
 
 export const SingleProject: React.FC<SingleProjectProps> = (props) => {
   const containerRef = useRef<HTMLDivElement>(null)
