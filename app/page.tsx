@@ -8,7 +8,7 @@ import { Experience } from '@/components/experience/experience'
 
 export default function Home() {
   return (
-    <main className="">
+    <main>
       <div className="background-base">
         <Navbar />
         <div className="hero-section-bg mt-10" id="main-content">

@@ -67,7 +67,6 @@ export const HeroSection = () => {
                 wrapper="span"
                 speed={50}
                 style={{ fontSize: '0.6em', display: 'inline-block' }}
-                className=""
                 repeat={Infinity}
               />
             </div>

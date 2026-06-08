@@ -220,17 +220,6 @@ export const experiences = [
   },
 ]
 
-export const education = [
-  {
-    id: 0,
-    img: '',
-    school: '',
-    date: 'Oct 2021 - Sep 2025',
-    desc: '',
-    degree: '',
-  },
-]
-
 export const projects = [
   {
     id: 1,

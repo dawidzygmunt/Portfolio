@@ -26,25 +26,6 @@ export const ModalProvider: React.FC<ModalProviderProps> = ({
     }
   }, [open])
 
-  // useEffect(() => {
-  //   const handleClickOutside = (event: MouseEvent) => {
-  //     if (
-  //       modalRef.current &&
-  //       !modalRef.current.contains(event.target as Node)
-  //     ) {
-  //       onClose()
-  //     }
-  //   }
-
-  //   if (open) {
-  //     document.addEventListener('mousedown', handleClickOutside)
-  //   }
-
-  //   return () => {
-  //     document.removeEventListener('mousedown', handleClickOutside)
-  //   }
-  // }, [open, onClose])
-
   if (!open) return null
 
   return (
