@@ -2,7 +2,7 @@
 
 import React from "react";
 
-import NavLink from "../Navbar/NavLink";
+import NavLink from "../navbar/NavLink";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
