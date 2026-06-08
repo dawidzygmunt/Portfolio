@@ -9,16 +9,16 @@ import { Experience } from '@/components/experience/experience'
 export default function Home() {
   return (
     <main className="">
-      <div className="tlo">
+      <div className="background-base">
         <Navbar />
-        <div className="tlo1 mt-10">
+        <div className="hero-section-bg mt-10">
           <HeroSection />
         </div>
-        <div className="tlo2">
+        <div className="skills-experience-bg">
           <Skills />
           <Experience />
         </div>
-        <div className="tlo3">
+        <div className="projects-bg">
           <Projects />
         </div>
         <Footer />
