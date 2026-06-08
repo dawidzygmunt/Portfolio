@@ -3,24 +3,24 @@
 @tailwind utilities;
 
 
-.tlo {
+.background-base {
   background-color: #1c1c27
 }
 
-.tlo1 {
+.hero-section-bg {
   background-color: rgb(28, 28, 39);
   background: rgb(4,0,80);
   background: linear-gradient(27deg, rgba(102, 4, 64, 0.185) 0%, rgba(104,33,139,0) 56%, rgba(60, 30, 125, 0.267) 100%);
   clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 70% 95%, 0px 100%);
 }
 
-.tlo2 {
+.skills-experience-bg {
   background: linear-gradient(38.73deg, rgba(204, 0, 187, 0.15) 0%, rgba(201, 32, 184, 0) 50%),
   linear-gradient(141.27deg, rgba(0, 70, 209, 0) 50%, rgba(0, 70, 209, 0.15) 100%);
   clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 30% 98%, 0px 100%);
 }
 
-.tlo3 {
+.projects-bg {
   background: rgb(4,0,80);
   background: linear-gradient(185deg, rgba(4,0,80,0) 0%, rgba(139,33,126,0) 62%, rgba(125,36,72,0.4990371148459384) 100%);
   clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 60% 96%, 0px 100%);

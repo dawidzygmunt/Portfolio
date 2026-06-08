@@ -1,15 +1,7 @@
 import React from 'react'
+import { SingleExperienceProps } from '@/types'
 
-interface Props {
-  title: string
-  company: string
-  date: string
-  description: string
-  skills: string[]
-  src: string
-}
-
-export const SingleExperience: React.FC<Props> = (props) => {
+export const SingleExperience: React.FC<SingleExperienceProps> = (props) => {
   return (
     <div className="border border-blue-500 p-4 m-1 my-4 md:m-4 lg:max-w-[1000px] rounded-lg lg:mx-20 experience-glow">
       <div className="flex">

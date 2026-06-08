@@ -2,14 +2,9 @@
 
 import { useEffect, useRef } from 'react'
 import { XMarkIcon } from '@heroicons/react/24/solid'
+import { ModalProviderProps } from '@/types'
 
-interface ModalProps {
-  open: boolean
-  children: React.ReactNode
-  onClose: () => void
-}
-
-export const ModalProvider: React.FC<ModalProps> = ({
+export const ModalProvider: React.FC<ModalProviderProps> = ({
   open,
   children,
   onClose,

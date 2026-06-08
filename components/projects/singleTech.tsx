@@ -1,9 +1,5 @@
 import React from "react";
-
-interface SingleTechProps {
-  name: string;
-}
-
+import { SingleTechProps } from '@/types'
 
 export const SingleTech:React.FC<SingleTechProps> = (props) => {
   return (

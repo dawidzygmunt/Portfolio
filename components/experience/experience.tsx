@@ -4,16 +4,7 @@ import React, { useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
 import { experiences } from '@/data/constants'
 import { SingleExperience } from './singleExperience'
-
-interface ExperienceType {
-  id: string | number
-  role: string
-  company: string
-  date: string
-  desc: string
-  skills?: string[]
-  img: string
-}
+import { ExperienceType } from '@/types'
 
 export const Experience = () => {
   const sectionRef = useRef(null)
