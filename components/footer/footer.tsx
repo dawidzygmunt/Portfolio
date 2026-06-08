@@ -24,7 +24,7 @@ const Footer = () => {
   const Navlinks = [
     {
       title: "About",
-      path: "#about",
+      path: "#About",
     },
     {
       title: "Skills",
