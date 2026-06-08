@@ -55,7 +55,7 @@ export const SingleProject: React.FC<SingleProjectProps> = (props) => {
         <div>
           <div className="flex justify-center">
             <Image
-              src={`/${props.src}`}
+              src={props.src.startsWith('/') ? props.src : `/${props.src}`}
               alt={`${props.title} project screenshot`}
               width={860}
               height={450}

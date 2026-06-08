@@ -22,7 +22,7 @@ export const Modal: React.FC<ModalProjectProps> = ({
         onClose={() => onClose()}
       >
         <Image
-          src={`/${src}`}
+          src={src.startsWith('/') ? src : `/${src}`}
           alt={`${title} project screenshot`}
           width={900}
           height={400}
