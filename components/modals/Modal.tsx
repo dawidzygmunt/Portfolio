@@ -26,6 +26,7 @@ export const Modal: React.FC<ModalProjectProps> = ({
           alt={`${title} project screenshot`}
           width={900}
           height={400}
+          onError={(e) => { e.currentTarget.src = '/images/fallback.png' }}
         />
         <h1 className="text-left text-white text-4xl font-medium pt-2 ">
           {title}

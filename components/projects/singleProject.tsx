@@ -60,6 +60,7 @@ export const SingleProject: React.FC<SingleProjectProps> = (props) => {
               width={860}
               height={450}
               className="rounded-sm"
+              onError={(e) => { e.currentTarget.src = '/images/fallback.png' }}
             />
           </div>
           <div

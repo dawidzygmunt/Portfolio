@@ -139,6 +139,7 @@ export const HeroSection = () => {
             height={500}
             alt="Portrait of Dawid Zygmunt, Fullstack Developer"
             className="rounded-full xl:translate-y-14 float-right"
+            onError={(e) => { e.currentTarget.src = '/images/fallback.png' }}
           />
         </motion.div>
       </div>
