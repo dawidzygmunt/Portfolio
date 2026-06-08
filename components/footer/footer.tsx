@@ -85,7 +85,7 @@ const Footer = () => {
         </ul>
       </div>
       <p className="text-center text-white text-xxs">
-        © 2024 Dawid Zygmunt. All rights reserved.
+        © {new Date().getFullYear()} Dawid Zygmunt. All rights reserved.
       </p>
     </footer>
   );
