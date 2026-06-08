@@ -1,13 +1,16 @@
 import React from 'react'
+import Image from 'next/image'
 import { SingleExperienceProps } from '@/types'
 
 export const SingleExperience: React.FC<SingleExperienceProps> = (props) => {
   return (
     <div className="border border-blue-500 p-4 m-1 my-4 md:m-4 lg:max-w-[1000px] rounded-lg lg:mx-20 experience-glow">
       <div className="flex">
-        <img
+        <Image
           src={props.src}
           alt={`${props.company} logo`}
+          width={80}
+          height={80}
           className="w-[80px] h-[80px]"
         />
         <div className="ml-2 text-left">
