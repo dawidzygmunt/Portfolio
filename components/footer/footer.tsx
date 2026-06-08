@@ -15,34 +15,12 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
+import { navLinks } from "@/data/navigation";
 
 const Footer = () => {
   const handleClick = (url: string) => {
     window.open(url, "_blank");
   };
-
-  const Navlinks = [
-    {
-      title: "About",
-      path: "#About",
-    },
-    {
-      title: "Skills",
-      path: "#Skills",
-    },
-    {
-      title: "Experience",
-      path: "#Experience",
-    },
-    {
-      title: "Projects",
-      path: "#Projects",
-    },
-    {
-      title: "Contact",
-      path: "#Contact",
-    },
-  ];
 
   return (
     <footer className="flex flex-col items-center text-white sm:container mx-auto p-4">
@@ -95,7 +73,7 @@ const Footer = () => {
       </div>
       <div>
         <ul className="flex mt-4 text-white flex-col sm:flex-row">
-          {Navlinks.map((link, index) => (
+          {navLinks.map((link, index) => (
             <li key={index}>
               <NavLink
                 href={link.path}

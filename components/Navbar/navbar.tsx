@@ -8,32 +8,9 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid"
 import { MenuOverlay } from "./menuOverlay"
 
 import { Bilbo } from "next/font/google"
+import { navLinks } from "@/data/navigation"
+
 const logo = Bilbo({ subsets: ['latin'], weight: '400' })
-
-
-
-const Navlinks = [
-  {
-    title: "About",
-    path: "#About"
-  },
-  {
-    title: "Skills",
-    path: "#Skills"
-  },
-  {
-    title: "Experience",
-    path: "#Experience"
-  },
-  {
-    title: "Projects",
-    path: "#Projects"
-  },
-  {
-    title: "Contact",
-    path: "#Contact"
-  }
-]
 
 
 
@@ -66,7 +43,7 @@ const Navbar = () => {
         <div className="hidden md:block mr-10">
           <ul className="flex flex-row px-6 text-[#ADB7BE]">
             {
-              Navlinks.map((link, index) => (
+              navLinks.map((link, index) => (
                 <li key={index}>
                   <NavLink href={link.path} title={link.title} style='hover:text-white' />
                 </li>
@@ -75,7 +52,7 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
-      {navbarOpen ? <MenuOverlay links={Navlinks}/> : null}
+      {navbarOpen ? <MenuOverlay links={navLinks}/> : null}
     </nav>
   )
 }
