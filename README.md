@@ -1,30 +1,30 @@
 # Portfolio
 
-Moja strona portfolio, gdzie prezentuję projekty i umiejętności. Responsywny design z animacjami i formularzem kontaktowym.
+My portfolio website showcasing projects and skills. Responsive design with animations and a contact form.
 
 ## Demo
 
 http://dawidzygmuntdev.pl/
 
-## Tech stack
+## Tech Stack
 
 - Next.js
 - TypeScript
 - Tailwind CSS
 
-## Uruchomienie lokalnie
+## Running Locally
 
 ```bash
 npm install
 npm run dev
 ```
 
-Strona będzie dostępna pod adresem `http://localhost:3000`.
+The site will be available at `http://localhost:3000`.
 
-## Kontakt
+## Contact
 
 dawid.zygmunt86@gmail.com
 
-## Licencja
+## License
 
 MIT

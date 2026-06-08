@@ -223,8 +223,7 @@ export const projects = [
     title: 'Truth or Dare',
     date: 'July 2023 - August 2023',
     description:
-      'The "Truth or Dare" app is a fun and interactive gaming platform designed for an engaging experience with friends. Players can create game sessions, invite others, and choose from different game modes. The system ensures variety by distributing unique cards and tracking player choices to prevent overuse of "truth." An admin panel allows for managing cards, adding new challenges, and customizing content. The app also tracks game statistics and lets players set custom rules, like penalties for skipping a challenge, making it a dynamic and personalized entertainment tool.',
-    // 'Test description',
+      'Web app for playing truth or dare with friends. Players create game sessions, invite others, and choose between different game modes. The app distributes unique cards to each player and tracks their choices to prevent someone from picking "truth" too many times in a row. Features an admin panel for managing the card database and adding new challenges. Players can also set custom rules, like penalties for skipping a challenge, making each game session unique.',
     image: '/images/cards.png',
     tags: ['React Js', 'Bootstrap', 'Node Js', 'Express Js', 'MongoDb'],
     category: 'web app',
@@ -236,7 +235,7 @@ export const projects = [
     title: 'E-Commerce CMS',
     date: 'Apr 2023 - Aug 2023',
     description:
-      'This eCommerce CMS, built with Next.js, leverages advanced front-end technologies and Server-Side Rendering (SSR) for exceptional speed and a smooth user experience. The admin panel simplifies content and product management, giving store owners full control over inventory, categories, and orders. With a user-friendly interface and strong security features, managing the store is both seamless and reliable.',
+      'Content management system for running an online store. Built with Next.js using server-side rendering for fast page loads. Store owners can manage their entire inventory, organize products into categories, process orders, and update content through a centralized admin panel. The interface handles everything from adding new products with images and descriptions to tracking order status and managing customer data.',
     image: 'images/ecommerce-cms.png',
     tags: ['Next Js', 'Prisma', 'Tailwind', 'Prisma', 'React Js', 'MySQL'],
     category: 'web app',
@@ -248,7 +247,7 @@ export const projects = [
     title: 'E-Commerce store',
     date: 'Apr 2023 - Aug 2023',
     description:
-      'The project aims to build a fully functional e-commerce store with integrated online payment systems and an efficient delivery process. It will offer a wide variety of products, making it easy for customers to browse, select, and purchase items. The project will focus on key aspects such as an intuitive user interface, secure online transactions, and a streamlined order and delivery management system.',
+      'Customer-facing online store with full shopping functionality. Users can browse products by category, add items to their cart, and complete purchases through integrated payment processing. The checkout flow handles order confirmation and connects to the delivery system. Works with the E-Commerce CMS for product data and inventory management.',
     image: 'images/ecommerce-store.png',
     tags: ['Next Js', 'Prisma', 'Tailwind', 'MySQL'],
     category: 'web app',
@@ -260,7 +259,7 @@ export const projects = [
     title: 'Anthill',
     date: 'February 2024 - February 2024',
     description:
-      'The Anthill app, built with Next.js, utilizes advanced front-end technologies and Server-Side Rendering (SSR) to deliver fast page load times and top-tier performance. This platform allows users to easily log their work hours and activities related to specific tasks. Key features include the ability to log hours in real-time or retrospectively, offering flexibility for accurate time tracking. Users can also close weeks to finalize their logged hours and activities for reporting or analysis. The app supports a range of activity categories, providing users with valuable insights into how their time is spent.',
+      'Time tracking platform for logging work hours and activities. Users can track time in real-time or add entries retroactively. Each activity gets categorized so you can see where your time actually goes. At the end of each week, you can close the timesheet to finalize hours for reporting. Built as a PWA so it works offline and sends push notifications to remind you to log your time.',
     image: '/images/Anthillv2.png',
     tags: [
       'Next Js',
@@ -279,7 +278,7 @@ export const projects = [
     title: 'Marketing Agency',
     date: 'July 2024 - July 2024',
     description:
-      'The Marketing Agency website, built with React, offers a dynamic platform to showcase services, portfolios, and client testimonials. With a focus on user experience, the website boasts a sleek, responsive design that adapts effortlessly across devices. Please note that this is a showcase site and does not include full functionality.',
+      'Marketing agency website showcasing services, portfolio work, and client testimonials. Fully responsive design that works across all devices with smooth scroll animations and transitions. This is a demonstration project focused on front-end design and user experience - it doesn\'t include backend functionality or a real content management system.',
     image: '/images/agency.png',
     tags: ['React', 'Tailwind'],
     category: 'web app',
