@@ -23,7 +23,7 @@ export const Modal: React.FC<ModalProjectProps> = ({
       >
         <Image
           src={`/${src}`}
-          alt="project image"
+          alt={`${title} project screenshot`}
           width={900}
           height={400}
         />
@@ -46,13 +46,13 @@ export const Modal: React.FC<ModalProjectProps> = ({
         </div>
         <div className="flex items-center justify-center pt-3">
           <button
-            className="rounded-md font-semibold bg-[#222230] hover:bg-[#393957] hover:opacity-75 transition-all text-white w-full py-4 mx-2"
+            className="rounded-md font-semibold bg-[#222230] hover:bg-[#393957] hover:opacity-75 transition-all text-white w-full py-4 mx-2 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 focus:ring-offset-[#171721]"
             onClick={onClose}
           >
             Back
           </button>
           <button
-            className="rounded-md font-semibold bg-purple-500 hover:bg-purple-600 transition-all text-white w-full py-4 mx-2"
+            className="rounded-md font-semibold bg-purple-500 hover:bg-purple-600 transition-all text-white w-full py-4 mx-2 focus:outline-none focus:ring-2 focus:ring-purple-400 focus:ring-offset-2 focus:ring-offset-[#171721]"
             onClick={() => window.open(webApp)}
           >
             View Live App

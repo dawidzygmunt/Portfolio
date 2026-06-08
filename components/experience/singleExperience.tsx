@@ -7,7 +7,7 @@ export const SingleExperience: React.FC<SingleExperienceProps> = (props) => {
       <div className="flex">
         <img
           src={props.src}
-          alt="company logo"
+          alt={`${props.company} logo`}
           className="w-[80px] h-[80px]"
         />
         <div className="ml-2 text-left">

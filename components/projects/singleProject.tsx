@@ -44,15 +44,19 @@ export const SingleProject: React.FC<SingleProjectProps> = (props) => {
         )}
 
       <div
-        className={`bg-[#232333] min-w-[220px] max-w-[600px] lg:w-[350px] lg:h-[380px] p-3 rounded-xl text-white sm:m-5 my-5 
-          transition-all duration-500 btn-modal hover:bg-[#2b2b3f] hover:-translate-y-5 hover:cursor-pointer relative flex flex-col justify-between`}
+        className={`bg-[#232333] min-w-[220px] max-w-[600px] lg:w-[350px] lg:h-[380px] p-3 rounded-xl text-white sm:m-5 my-5
+          transition-all duration-500 btn-modal hover:bg-[#2b2b3f] hover:-translate-y-5 hover:cursor-pointer focus:outline-none focus:ring-2 focus:ring-purple-400 focus:ring-offset-2 focus:ring-offset-transparent relative flex flex-col justify-between`}
         onClick={() => setIsModalOpen(true)}
+        onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); setIsModalOpen(true); } }}
+        role="button"
+        tabIndex={0}
+        aria-label={`View details for ${props.title} project`}
       >
         <div>
           <div className="flex justify-center">
             <Image
               src={`/${props.src}`}
-              alt="project image"
+              alt={`${props.title} project screenshot`}
               width={860}
               height={450}
               className="rounded-sm"

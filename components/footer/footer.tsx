@@ -31,7 +31,7 @@ const Footer = () => {
         <TooltipProvider delayDuration={400}>
           <Tooltip>
             <TooltipTrigger>
-              <a href="mailto:dawid.zygmunt86@gmail.com">
+              <a href="mailto:dawid.zygmunt86@gmail.com" aria-label="Email dawid.zygmunt86@gmail.com" className="focus:outline-none focus:ring-2 focus:ring-red-300 focus:ring-offset-2 focus:ring-offset-[#191924] rounded">
                 <FontAwesomeIcon
                   icon={faEnvelope}
                   className="w-[25px] h-[25px] hover:text-red-300 transition-all duration-75 mx-4"
@@ -45,7 +45,7 @@ const Footer = () => {
         <TooltipProvider delayDuration={400}>
           <Tooltip>
             <TooltipTrigger>
-              <a href="tel:696-633-888">
+              <a href="tel:696-633-888" aria-label="Call +48 696 633 888" className="focus:outline-none focus:ring-2 focus:ring-red-300 focus:ring-offset-2 focus:ring-offset-[#191924] rounded">
                 <FontAwesomeIcon
                   icon={faPhone}
                   className="w-[25px] h-[25px] hover:text-red-300 transition-all duration-75 mx-4"
@@ -56,7 +56,7 @@ const Footer = () => {
           </Tooltip>
         </TooltipProvider>
 
-        <button onClick={() => handleClick("https://github.com/dawidzygmunt")}>
+        <button onClick={() => handleClick("https://github.com/dawidzygmunt")} aria-label="Visit GitHub profile" className="focus:outline-none focus:ring-2 focus:ring-red-300 focus:ring-offset-2 focus:ring-offset-[#191924] rounded">
           <FontAwesomeIcon
             icon={faGithub}
             className="w-[25px] h-[25px] hover:text-red-300 transition-all duration-75 mx-4"
@@ -64,6 +64,8 @@ const Footer = () => {
         </button>
         <button
           onClick={() => handleClick("https://www.linkedin.com/in/dz-dev/")}
+          aria-label="Visit LinkedIn profile"
+          className="focus:outline-none focus:ring-2 focus:ring-red-300 focus:ring-offset-2 focus:ring-offset-[#191924] rounded"
         >
           <FontAwesomeIcon
             icon={faLinkedinIn}

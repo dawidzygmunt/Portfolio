@@ -97,9 +97,10 @@ export const HeroSection = () => {
               <a
                 href="Dawid_Zygmunt_CV.pdf"
                 download
+                className="focus:outline-none focus:ring-2 focus:ring-purple-400 focus:ring-offset-2 focus:ring-offset-transparent rounded-full"
               >
                 <motion.button
-                  className="px-8 py-3 rounded-full bg-white hover:bg-slate-200 border border-white transition-all 
+                  className="px-8 py-3 rounded-full bg-white hover:bg-slate-200 border border-white transition-all
                 text-black text-2xl w-[270px] my-2"
                   variants={buttonHoverVariants}
                   whileHover="hover"
@@ -108,9 +109,9 @@ export const HeroSection = () => {
                   Check Resume
                 </motion.button>
               </a>
-              <a href="#Projects">
+              <a href="#Projects" className="focus:outline-none focus:ring-2 focus:ring-purple-400 focus:ring-offset-2 focus:ring-offset-transparent rounded-full">
                 <motion.button
-                  className="px-10 py-3 rounded-full bg-transparent hover:bg-slate-800 transition-all 
+                  className="px-10 py-3 rounded-full bg-transparent hover:bg-slate-800 transition-all
                 text-white border border-white text-2xl w-[270px] my-2"
                   variants={buttonHoverVariants}
                   whileHover="hover"
@@ -137,7 +138,7 @@ export const HeroSection = () => {
             src="/images/hero-Photo.png"
             width={500}
             height={500}
-            alt="Hero image"
+            alt="Portrait of Dawid Zygmunt, Fullstack Developer"
             className="rounded-full xl:translate-y-14 float-right"
           />
         </motion.div>

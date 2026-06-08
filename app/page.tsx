@@ -11,7 +11,7 @@ export default function Home() {
     <main className="">
       <div className="background-base">
         <Navbar />
-        <div className="hero-section-bg mt-10">
+        <div className="hero-section-bg mt-10" id="main-content">
           <HeroSection />
         </div>
         <div className="skills-experience-bg">

@@ -9,6 +9,7 @@ export const SingleSkill: React.FC<SingleSkillProps> = (props) => {
       >
         <img
           src={props.src}
+          alt={`${props.name} logo`}
           className="w-[15px] h-[15px] sm:w-[25px] sm:h-[25px] mr-3 aspect-auto"
         />
         {props.name}
