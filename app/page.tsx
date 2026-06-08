@@ -1,4 +1,4 @@
-import Navbar from '@/components/Navbar/navbar'
+import Navbar from '@/components/navbar/navbar'
 import { HeroSection } from '@/components/heroSection/heroSection'
 import { Skills } from '@/components/skills/skills'
 
@@ -8,10 +8,10 @@ import { Experience } from '@/components/experience/experience'
 
 export default function Home() {
   return (
-    <main className="">
+    <main>
       <div className="background-base">
         <Navbar />
-        <div className="hero-section-bg mt-10">
+        <div className="hero-section-bg mt-10" id="main-content">
           <HeroSection />
         </div>
         <div className="skills-experience-bg">

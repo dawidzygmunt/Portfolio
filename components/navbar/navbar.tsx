@@ -23,18 +23,19 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-10 bg-[#191924]">
       <div className="width-full flex items-center justify-between mx-auto">
-        <Link href={'/'} className={`text-4xl text-white p-3 mx-4 ${logo.className}`}>Dawid</Link>
+        <Link href={'/'} className={`text-4xl text-white p-3 mx-4 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-[#191924] rounded ${logo.className}`}>Dawid</Link>
         <div className="mobile-menu block md:hidden">
           {
             navbarOpen ? (
               <button
-                className="m-5 p-2 px-3 text-slate-200 border border-slate-200 rounded-lg hover:text-white hover:border-white"
+                className="m-5 p-2 px-3 text-slate-200 border border-slate-200 rounded-lg hover:text-white hover:border-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-[#191924]"
                 onClick={() => { setNavbarOpen(false) }}
+                aria-label="Close menu"
               >
                 <XMarkIcon className="w-6 h-6" />
               </button>
             ) : (
-              <button className="m-5 p-2 px-3 text-slate-200 border border-slate-200 rounded hover:text-white hover:border-white" onClick={() => { setNavbarOpen(true) }}>
+              <button className="m-5 p-2 px-3 text-slate-200 border border-slate-200 rounded hover:text-white hover:border-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-[#191924]" onClick={() => { setNavbarOpen(true) }} aria-label="Open menu">
                 <Bars3Icon className="w-6 h-6" />
               </button>
             )

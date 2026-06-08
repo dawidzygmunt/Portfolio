@@ -26,8 +26,7 @@ export const skills = [
       },
       {
         name: 'JavaScript',
-        image:
-          'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png',
+        image: '/images/javascript-logo.png',
       },
       {
         name: 'TypeScript',
@@ -87,8 +86,7 @@ export const skills = [
     skills: [
       {
         name: 'Bash',
-        image:
-          'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Bash_Logo_Colored.svg/2048px-Bash_Logo_Colored.svg.png',
+        image: '/images/bash-logo.svg',
       },
       {
         name: 'Google Cloud',
@@ -135,8 +133,7 @@ export const skills = [
       },
       {
         name: 'VS Code',
-        image:
-          'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519',
+        image: '/images/vscode-logo.svg',
       },
       {
         name: 'Figma',
@@ -157,7 +154,7 @@ export const skills = [
 export const experiences = [
   {
     id: 2,
-    img: './images/brainhub-logo.jpg',
+    img: '/images/brainhub-logo.jpg',
     role: 'Fullstack Developer',
     company: 'Brainhub',
     date: 'April 2024 - August 2024',
@@ -202,7 +199,7 @@ export const experiences = [
   },
   {
     id: 0,
-    img: './images/ynsat.jpg',
+    img: '/images/ynsat.jpg',
     role: 'Frontend Developer',
     company: 'YNSAT',
     date: 'January 2022 - September  2022',
@@ -220,17 +217,6 @@ export const experiences = [
   },
 ]
 
-export const education = [
-  {
-    id: 0,
-    img: '',
-    school: '',
-    date: 'Oct 2021 - Sep 2025',
-    desc: '',
-    degree: '',
-  },
-]
-
 export const projects = [
   {
     id: 1,
@@ -239,7 +225,7 @@ export const projects = [
     description:
       'The "Truth or Dare" app is a fun and interactive gaming platform designed for an engaging experience with friends. Players can create game sessions, invite others, and choose from different game modes. The system ensures variety by distributing unique cards and tracking player choices to prevent overuse of "truth." An admin panel allows for managing cards, adding new challenges, and customizing content. The app also tracks game statistics and lets players set custom rules, like penalties for skipping a challenge, making it a dynamic and personalized entertainment tool.',
     // 'Test description',
-    image: './images/cards.png',
+    image: '/images/cards.png',
     tags: ['React Js', 'Bootstrap', 'Node Js', 'Express Js', 'MongoDb'],
     category: 'web app',
     github: 'https://github.com/dawidzygmunt/Truth-or-Dare',
@@ -275,7 +261,7 @@ export const projects = [
     date: 'February 2024 - February 2024',
     description:
       'The Anthill app, built with Next.js, utilizes advanced front-end technologies and Server-Side Rendering (SSR) to deliver fast page load times and top-tier performance. This platform allows users to easily log their work hours and activities related to specific tasks. Key features include the ability to log hours in real-time or retrospectively, offering flexibility for accurate time tracking. Users can also close weeks to finalize their logged hours and activities for reporting or analysis. The app supports a range of activity categories, providing users with valuable insights into how their time is spent.',
-    image: './images/Anthillv2.png',
+    image: '/images/Anthillv2.png',
     tags: [
       'Next Js',
       'Prisma',
@@ -294,7 +280,7 @@ export const projects = [
     date: 'July 2024 - July 2024',
     description:
       'The Marketing Agency website, built with React, offers a dynamic platform to showcase services, portfolios, and client testimonials. With a focus on user experience, the website boasts a sleek, responsive design that adapts effortlessly across devices. Please note that this is a showcase site and does not include full functionality.',
-    image: './images/agency.png',
+    image: '/images/agency.png',
     tags: ['React', 'Tailwind'],
     category: 'web app',
     github: 'https://github.com/dawidzygmunt/marketing-agency',

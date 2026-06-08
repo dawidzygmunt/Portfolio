@@ -26,25 +26,6 @@ export const ModalProvider: React.FC<ModalProviderProps> = ({
     }
   }, [open])
 
-  // useEffect(() => {
-  //   const handleClickOutside = (event: MouseEvent) => {
-  //     if (
-  //       modalRef.current &&
-  //       !modalRef.current.contains(event.target as Node)
-  //     ) {
-  //       onClose()
-  //     }
-  //   }
-
-  //   if (open) {
-  //     document.addEventListener('mousedown', handleClickOutside)
-  //   }
-
-  //   return () => {
-  //     document.removeEventListener('mousedown', handleClickOutside)
-  //   }
-  // }, [open, onClose])
-
   if (!open) return null
 
   return (
@@ -54,8 +35,9 @@ export const ModalProvider: React.FC<ModalProviderProps> = ({
           rounded-xl"
       >
         <button
-          className="text-white mb-4 absolute right-1 top-1"
+          className="text-white mb-4 absolute right-1 top-1 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-[#171721] rounded"
           onClick={() => onClose()}
+          aria-label="Close modal"
         >
           <XMarkIcon className="w-5 h-5" />
         </button>
