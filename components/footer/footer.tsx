@@ -79,8 +79,8 @@ const Footer = () => {
       </div>
       <div>
         <ul className="flex mt-4 text-white flex-col sm:flex-row">
-          {navLinks.map((link, index) => (
-            <li key={index}>
+          {navLinks.map((link) => (
+            <li key={link.title}>
               <NavLink
                 href={link.path}
                 title={link.title}

@@ -44,8 +44,8 @@ const Navbar = () => {
         <div className="hidden md:block mr-10">
           <ul className="flex flex-row px-6 text-[#ADB7BE]">
             {
-              navLinks.map((link, index) => (
-                <li key={index}>
+              navLinks.map((link) => (
+                <li key={link.title}>
                   <NavLink href={link.path} title={link.title} style='hover:text-white' />
                 </li>
               ))

@@ -41,9 +41,9 @@ export const Modal: React.FC<ModalProjectProps> = ({
           </span>
         </DialogDescription>
         <div className="flex flex-wrap mx-2">
-          {techStack.map((tech, index) => (
+          {techStack.map((tech) => (
             <SingleTech
-              key={index}
+              key={tech}
               name={tech}
             />
           ))}

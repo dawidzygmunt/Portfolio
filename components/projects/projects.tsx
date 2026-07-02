@@ -9,7 +9,7 @@ import { useRevealOnScroll } from '@/hooks/useRevealOnScroll'
 import { revealHeadingVariants, revealParagraphVariants } from '@/lib/animations'
 
 export const Projects = () => {
-  const { ref: sectionRef, isInView } = useRevealOnScroll({ once: false, amount: 0.1 })
+  const { ref: sectionRef, isInView } = useRevealOnScroll({ amount: 0.1 })
 
   return (
     <div
