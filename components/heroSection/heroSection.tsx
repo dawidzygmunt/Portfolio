@@ -56,7 +56,7 @@ export const HeroSection = () => {
               Hello, I&apos;m
             </motion.span>
             <br />
-            <div className="specjalna min-h-[75px] sm:min-h-0">
+            <div className="min-h-[75px] sm:min-h-0">
               <TypeAnimation
                 sequence={[
                   'Dawid Zygmunt 👋',
