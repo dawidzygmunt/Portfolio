@@ -18,10 +18,6 @@ import {
 import { navLinks } from "@/data/navigation";
 
 const Footer = () => {
-  const handleClick = (url: string) => {
-    window.open(url, "_blank");
-  };
-
   return (
     <footer className="flex flex-col items-center text-white sm:container mx-auto p-4">
       <h1 className="text-[#af6c45] text-2xl logo-font font-normal">
@@ -56,14 +52,22 @@ const Footer = () => {
           </Tooltip>
         </TooltipProvider>
 
-        <button onClick={() => handleClick("https://github.com/dawidzygmunt")} aria-label="Visit GitHub profile" className="focus:outline-none focus:ring-2 focus:ring-red-300 focus:ring-offset-2 focus:ring-offset-[#191924] rounded">
+        <a
+          href="https://github.com/dawidzygmunt"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Visit GitHub profile"
+          className="focus:outline-none focus:ring-2 focus:ring-red-300 focus:ring-offset-2 focus:ring-offset-[#191924] rounded"
+        >
           <FontAwesomeIcon
             icon={faGithub}
             className="w-[25px] h-[25px] hover:text-red-300 transition-all duration-75 mx-4"
           />
-        </button>
-        <button
-          onClick={() => handleClick("https://www.linkedin.com/in/dz-dev/")}
+        </a>
+        <a
+          href="https://www.linkedin.com/in/dz-dev/"
+          target="_blank"
+          rel="noopener noreferrer"
           aria-label="Visit LinkedIn profile"
           className="focus:outline-none focus:ring-2 focus:ring-red-300 focus:ring-offset-2 focus:ring-offset-[#191924] rounded"
         >
@@ -71,7 +75,7 @@ const Footer = () => {
             icon={faLinkedinIn}
             className="w-[25px] h-[25px] hover:text-red-300 transition-all duration-75 mx-4"
           />
-        </button>
+        </a>
       </div>
       <div>
         <ul className="flex mt-4 text-white flex-col sm:flex-row">

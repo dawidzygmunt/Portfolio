@@ -4,35 +4,12 @@ import { motion, useInView } from 'framer-motion'
 
 import { SingleProject } from './singleProject'
 import { projects } from '@/data/constants'
-import { ProjectType, ProjectItemProps } from '@/types'
+import { ProjectItemProps } from '@/types'
+import { useRevealOnScroll } from '@/hooks/useRevealOnScroll'
+import { revealHeadingVariants, revealParagraphVariants } from '@/lib/animations'
 
 export const Projects = () => {
-  const sectionRef = useRef(null)
-  const isInView = useInView(sectionRef, { once: false, amount: 0.1 })
-
-  const titleVariants = {
-    hidden: { opacity: 0, y: -20 },
-    visible: {
-      opacity: 1,
-      y: 0,
-      transition: {
-        duration: 0.7,
-        ease: 'easeOut',
-      },
-    },
-  }
-
-  const descriptionVariants = {
-    hidden: { opacity: 0 },
-    visible: {
-      opacity: 1,
-      transition: {
-        duration: 0.7,
-        delay: 0.2,
-        ease: 'easeOut',
-      },
-    },
-  }
+  const { ref: sectionRef, isInView } = useRevealOnScroll({ once: false, amount: 0.1 })
 
   return (
     <div
@@ -43,7 +20,7 @@ export const Projects = () => {
       <div className="text-white px-1 md:px-14 text-center flex flex-col items-center">
         <motion.span
           className="text-center text-5xl md:text-6xl font-extrabold text-white py-6"
-          variants={titleVariants}
+          variants={revealHeadingVariants}
           initial="hidden"
           animate={isInView ? 'visible' : 'hidden'}
         >
@@ -51,7 +28,7 @@ export const Projects = () => {
         </motion.span>
         <motion.p
           className="text-slate-300 lg:px-52 text-center text-md md:text-lg pb-7"
-          variants={descriptionVariants}
+          variants={revealParagraphVariants}
           initial="hidden"
           animate={isInView ? 'visible' : 'hidden'}
         >

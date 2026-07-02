@@ -24,7 +24,7 @@ export interface ModalProjectProps {
   title: string
   date: string
   description: string
-  webApp: string
+  webapp: string
   trigger: React.ReactNode
 }
 
@@ -61,6 +61,16 @@ export interface SingleExperienceProps {
 export interface SingleSkillProps {
   name: string
   src: string
+}
+
+export interface SkillItemType {
+  name: string
+  image: string
+}
+
+export interface SkillGroupType {
+  title: string
+  skills: SkillItemType[]
 }
 
 export interface SkillContainerProps {

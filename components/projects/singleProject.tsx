@@ -1,28 +1,13 @@
 'use client'
 
-import React, { useEffect, useRef } from 'react'
-import { useState } from 'react'
+import React from 'react'
 
 import { Modal } from '../modals/Modal'
 import { SingleTech } from './singleTech'
-import Image from 'next/image'
+import { SafeImage } from '../ui/safeImage'
 import { SingleProjectProps } from '@/types'
 
 export const SingleProject: React.FC<SingleProjectProps> = (props) => {
-  const containerRef = useRef<HTMLDivElement>(null)
-  const [techStackHeight, setTechStackHeight] = useState(0)
-
-  useEffect(() => {
-    const getTechStackHeight = () => {
-      const height = containerRef.current?.clientHeight
-      if (height) {
-        setTechStackHeight(height)
-      }
-    }
-
-    getTechStackHeight()
-  }, [techStackHeight])
-
   return (
     <div className="text-white">
       <Modal
@@ -31,7 +16,7 @@ export const SingleProject: React.FC<SingleProjectProps> = (props) => {
         date={props.date}
         techStack={props.techStack}
         description={props.description}
-        webApp={props.webapp}
+        webapp={props.webapp}
         trigger={
           <div
             className={`bg-[#232333] min-w-[220px] max-w-[600px] lg:w-[350px] lg:h-[380px] p-3 rounded-xl text-white sm:m-5 my-5
@@ -42,19 +27,15 @@ export const SingleProject: React.FC<SingleProjectProps> = (props) => {
           >
             <div>
               <div className="flex justify-center">
-                <Image
-                  src={props.src.startsWith('/') ? props.src : `/${props.src}`}
+                <SafeImage
+                  src={props.src}
                   alt={`${props.title} project screenshot`}
                   width={860}
                   height={450}
                   className="rounded-sm"
-                  onError={(e) => { e.currentTarget.src = '/images/fallback.png' }}
                 />
               </div>
-              <div
-                className="flex flex-wrap my-2"
-                ref={containerRef}
-              >
+              <div className="flex flex-wrap my-2">
                 {props.techStack.map((tech, index) => (
                   <SingleTech
                     key={index}
@@ -66,11 +47,7 @@ export const SingleProject: React.FC<SingleProjectProps> = (props) => {
             <div>
               <p className="text-left text-xl font-semibold">{props.title}</p>
               <p className="text-left text-xxs text-slate-400">{props.date}</p>
-              <p
-                className={`text-left text-xs/4 font-light text-slate-200 ${
-                  techStackHeight < 50 ? 'line-clamp-6' : 'line-clamp-5'
-                }`}
-              >
+              <p className="text-left text-xs/4 font-light text-slate-200 line-clamp-5">
                 {props.description}
               </p>
             </div>

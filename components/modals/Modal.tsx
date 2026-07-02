@@ -9,7 +9,7 @@ import {
   DialogTitle,
   DialogDescription,
 } from '@/components/ui/dialog'
-import Image from 'next/image'
+import { SafeImage } from '@/components/ui/safeImage'
 import { ModalProjectProps } from '@/types'
 
 export const Modal: React.FC<ModalProjectProps> = ({
@@ -18,20 +18,19 @@ export const Modal: React.FC<ModalProjectProps> = ({
   title,
   date,
   description,
-  webApp,
+  webapp,
   trigger,
 }) => {
   return (
     <Dialog>
       <DialogTrigger asChild>{trigger}</DialogTrigger>
       <DialogContent>
-        <Image
-          src={src.startsWith('/') ? src : `/${src}`}
+        <SafeImage
+          src={src}
           alt={`${title} project screenshot`}
           width={900}
           height={400}
           className="h-auto w-full"
-          onError={(e) => { e.currentTarget.src = '/images/fallback.png' }}
         />
         <DialogTitle className="text-left text-white text-4xl font-medium pt-2">
           {title}
@@ -60,12 +59,14 @@ export const Modal: React.FC<ModalProjectProps> = ({
               Back
             </button>
           </DialogClose>
-          <button
-            className="rounded-md font-semibold bg-purple-500 hover:bg-purple-600 transition-all text-white w-full py-4 mx-2 focus:outline-none focus:ring-2 focus:ring-purple-400 focus:ring-offset-2 focus:ring-offset-[#171721]"
-            onClick={() => window.open(webApp)}
+          <a
+            href={webapp}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center rounded-md font-semibold bg-purple-500 hover:bg-purple-600 transition-all text-white w-full py-4 mx-2 focus:outline-none focus:ring-2 focus:ring-purple-400 focus:ring-offset-2 focus:ring-offset-[#171721]"
           >
             View Live App
-          </button>
+          </a>
         </div>
       </DialogContent>
     </Dialog>
