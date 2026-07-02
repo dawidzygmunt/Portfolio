@@ -1,7 +1,14 @@
 'use client'
 
 import { SingleTech } from '../projects/singleTech'
-import { ModalProvider } from './modalProvider'
+import {
+  Dialog,
+  DialogTrigger,
+  DialogClose,
+  DialogContent,
+  DialogTitle,
+  DialogDescription,
+} from '@/components/ui/dialog'
 import Image from 'next/image'
 import { ModalProjectProps } from '@/types'
 
@@ -11,29 +18,29 @@ export const Modal: React.FC<ModalProjectProps> = ({
   title,
   date,
   description,
-  isOpen,
   webApp,
-  onClose,
+  trigger,
 }) => {
   return (
-    <>
-      <ModalProvider
-        open={isOpen}
-        onClose={() => onClose()}
-      >
+    <Dialog>
+      <DialogTrigger asChild>{trigger}</DialogTrigger>
+      <DialogContent>
         <Image
           src={src.startsWith('/') ? src : `/${src}`}
           alt={`${title} project screenshot`}
           width={900}
           height={400}
+          className="h-auto w-full"
           onError={(e) => { e.currentTarget.src = '/images/fallback.png' }}
         />
-        <h1 className="text-left text-white text-4xl font-medium pt-2 ">
+        <DialogTitle className="text-left text-white text-4xl font-medium pt-2">
           {title}
-        </h1>
-        <span className="text-left text-xs text-slate-300 mx-2 pb-2">
-          {date}
-        </span>
+        </DialogTitle>
+        <DialogDescription asChild>
+          <span className="text-left text-xs text-slate-300 mx-2 pb-2">
+            {date}
+          </span>
+        </DialogDescription>
         <div className="flex flex-wrap mx-2">
           {techStack.map((tech, index) => (
             <SingleTech
@@ -46,12 +53,13 @@ export const Modal: React.FC<ModalProjectProps> = ({
           {description}
         </div>
         <div className="flex items-center justify-center pt-3">
-          <button
-            className="rounded-md font-semibold bg-[#222230] hover:bg-[#393957] hover:opacity-75 transition-all text-white w-full py-4 mx-2 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 focus:ring-offset-[#171721]"
-            onClick={onClose}
-          >
-            Back
-          </button>
+          <DialogClose asChild>
+            <button
+              className="rounded-md font-semibold bg-[#222230] hover:bg-[#393957] hover:opacity-75 transition-all text-white w-full py-4 mx-2 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 focus:ring-offset-[#171721]"
+            >
+              Back
+            </button>
+          </DialogClose>
           <button
             className="rounded-md font-semibold bg-purple-500 hover:bg-purple-600 transition-all text-white w-full py-4 mx-2 focus:outline-none focus:ring-2 focus:ring-purple-400 focus:ring-offset-2 focus:ring-offset-[#171721]"
             onClick={() => window.open(webApp)}
@@ -59,7 +67,7 @@ export const Modal: React.FC<ModalProjectProps> = ({
             View Live App
           </button>
         </div>
-      </ModalProvider>
-    </>
+      </DialogContent>
+    </Dialog>
   )
 }

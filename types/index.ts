@@ -24,9 +24,8 @@ export interface ModalProjectProps {
   title: string
   date: string
   description: string
-  isOpen: boolean
   webApp: string
-  onClose: () => void
+  trigger: React.ReactNode
 }
 
 export interface ProjectItemProps {
@@ -78,11 +77,4 @@ export interface NavLinkProps {
 
 export interface MenuOverlayProps {
   links: { title: string; path: string }[]
-}
-
-// Modal types
-export interface ModalProviderProps {
-  open: boolean
-  children: React.ReactNode
-  onClose: () => void
 }
