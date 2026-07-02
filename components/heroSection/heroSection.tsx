@@ -3,7 +3,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 
 import { TypeAnimation } from 'react-type-animation'
-import Image from 'next/image'
+import { SafeImage } from '../ui/safeImage'
 
 export const HeroSection = () => {
   // Animation variants
@@ -133,13 +133,12 @@ export const HeroSection = () => {
           }}
           className="col-span-4 lg:col-span-5 mt-8 lg:pt-0 flex lg:block justify-center"
         >
-          <Image
+          <SafeImage
             src="/images/hero-Photo.png"
             width={500}
             height={500}
             alt="Portrait of Dawid Zygmunt, Fullstack Developer"
             className="rounded-full xl:translate-y-14 float-right"
-            onError={(e) => { e.currentTarget.src = '/images/fallback.png' }}
           />
         </motion.div>
       </div>

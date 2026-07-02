@@ -5,34 +5,11 @@ import { motion, useInView } from 'framer-motion'
 import { experiences } from '@/data/constants'
 import { SingleExperience } from './singleExperience'
 import { ExperienceType } from '@/types'
+import { useRevealOnScroll } from '@/hooks/useRevealOnScroll'
+import { revealHeadingVariants, revealParagraphVariants } from '@/lib/animations'
 
 export const Experience = () => {
-  const sectionRef = useRef(null)
-  const isInView = useInView(sectionRef, { once: false, amount: 0.1 })
-
-  const headingVariants = {
-    hidden: { opacity: 0, y: -20 },
-    visible: {
-      opacity: 1,
-      y: 0,
-      transition: {
-        duration: 0.6,
-        ease: 'easeOut',
-      },
-    },
-  }
-
-  const paragraphVariants = {
-    hidden: { opacity: 0 },
-    visible: {
-      opacity: 1,
-      transition: {
-        duration: 0.7,
-        delay: 0.2,
-        ease: 'easeOut',
-      },
-    },
-  }
+  const { ref: sectionRef, isInView } = useRevealOnScroll({ once: false, amount: 0.1 })
 
   return (
     <div
@@ -42,7 +19,7 @@ export const Experience = () => {
     >
       <motion.span
         className="font-extrabold text-5xl mb-3 md:text-6xl pb-3"
-        variants={headingVariants}
+        variants={revealHeadingVariants}
         initial="hidden"
         animate={isInView ? 'visible' : 'hidden'}
       >
@@ -50,7 +27,7 @@ export const Experience = () => {
       </motion.span>
       <motion.p
         className="md:text-xl mx-1 sm:mx-20 lg:mx-72 text- text-slate-300 pb-10"
-        variants={paragraphVariants}
+        variants={revealParagraphVariants}
         initial="hidden"
         animate={isInView ? 'visible' : 'hidden'}
       >

@@ -1,15 +1,16 @@
 'use client'
-import React, { useRef } from 'react'
-import { motion, useInView } from 'framer-motion'
+import React from 'react'
+import { motion } from 'framer-motion'
 
 import { SkillContainer } from './skillContainer'
 import { SingleSkill } from './singleSkill'
+import { useRevealOnScroll } from '@/hooks/useRevealOnScroll'
+import { revealHeadingVariants, revealParagraphVariants } from '@/lib/animations'
 
 import { skills } from '@/data/constants'
 
 export const Skills = () => {
-  const sectionRef = useRef(null)
-  const isInView = useInView(sectionRef, { once: true, amount: 0.2 })
+  const { ref: sectionRef, isInView } = useRevealOnScroll({ once: true, amount: 0.2 })
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -55,17 +56,17 @@ export const Skills = () => {
     >
       <motion.span
         className="text-slate-100 text-5xl md:text-6xl items-center justify-center text-center block mb-3"
-        initial={{ opacity: 0, y: -20 }}
-        animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: -20 }}
-        transition={{ duration: 0.5 }}
+        variants={revealHeadingVariants}
+        initial="hidden"
+        animate={isInView ? 'visible' : 'hidden'}
       >
         Skills
       </motion.span>
       <motion.p
         className="text-center mb-4 sm:px-15 px-5 lg:px-72 text-slate-300 text-md md:text-lg"
-        initial={{ opacity: 0 }}
-        animate={isInView ? { opacity: 1 } : { opacity: 0 }}
-        transition={{ duration: 0.5, delay: 0.2 }}
+        variants={revealParagraphVariants}
+        initial="hidden"
+        animate={isInView ? 'visible' : 'hidden'}
       >
         I am an full-stack developer with a passion for creating innovative
         solutions. My skills encompass a wide spectrum of domains, allowing me
